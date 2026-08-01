@@ -1,0 +1,21 @@
+{
+  "name": "nextread-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@qdrant/js-client-rest": "^1.9.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@types/node": "^24.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3",
+    "vitest": "^2.1.8",
+    "zod": "^3.24.0"
+  }
+}
