@@ -40,6 +40,10 @@ Each prints JSON results to stdout. After `npm run build`, you can run the compi
 node packages/cli/dist/index.js similar
 ```
 
+## Sample Notes
+
+The CLI and web demo run against sample notes built into the code (`packages/core/src/fixtures/index.ts`). For a human-readable copy you can open, skim, or paste into the manual test form, see [`samples/notes/`](samples/notes/) — three Markdown notes with the same id, tags, links, and content as the built-in fixtures.
+
 ## Manual Testing Form
 
 You can run an interactive CLI form to test recommendation flows manually.
