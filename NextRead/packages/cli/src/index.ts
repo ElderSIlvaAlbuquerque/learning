@@ -1,23 +1,48 @@
 #!/usr/bin/env node
-import { BookRecommendationsService, NextStepService, SimilarNotesService, sampleBooks, sampleNotes } from '@nextread/core';
+import { BookRecommendationsService, NextStepService, SimilarNotesService, sampleBooks } from '@nextread/core';
 import { createInterface } from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
+import { resolveNotesDir } from './config.js';
+import { loadNotesFromDir } from './notes-loader.js';
 
-const args = process.argv.slice(2);
+function extractDirFlag(rawArgs: string[]): { dir?: string; rest: string[] } {
+  const rest = [...rawArgs];
+  const flagIndex = rest.findIndex((arg) => arg === '--dir' || arg.startsWith('--dir='));
+
+  if (flagIndex === -1) {
+    return { rest };
+  }
+
+  const flag = rest[flagIndex];
+  if (flag.startsWith('--dir=')) {
+    const dir = flag.slice('--dir='.length);
+    rest.splice(flagIndex, 1);
+    return { dir, rest };
+  }
+
+  const dir = rest[flagIndex + 1];
+  rest.splice(flagIndex, 2);
+  return { dir, rest };
+}
+
+const { dir: dirFlag, rest: args } = extractDirFlag(process.argv.slice(2));
 const mode = args[0] ?? 'similar';
 const noteIdArg = args[1];
+
+const notesDir = resolveNotesDir(dirFlag);
+const notes = loadNotesFromDir(notesDir);
 
 type Source = 'zenelf' | 'obsidian' | 'other';
 
 function resolveNote() {
   if (!noteIdArg) {
-    return sampleNotes[0];
+    return notes[0];
   }
 
-  const found = sampleNotes.find((note) => note.id === noteIdArg);
+  const found = notes.find((note) => note.id === noteIdArg);
   if (!found) {
-    const ids = sampleNotes.map((note) => note.id).join(', ');
-    throw new Error(`Unknown note id "${noteIdArg}". Available ids: ${ids}`);
+    const ids = notes.map((note) => note.id).join(', ');
+    throw new Error(`Unknown note id "${noteIdArg}". Available ids in ${notesDir}: ${ids}`);
   }
 
   return found;
@@ -51,7 +76,7 @@ async function runFormMode(): Promise<void> {
   const rl = createInterface({ input, output });
 
   try {
-    const defaultNote = sampleNotes[0];
+    const defaultNote = notes[0];
     console.log('NextRead Manual Test Form');
     console.log('Press Enter to keep default values shown in [brackets].\n');
 
@@ -80,7 +105,7 @@ async function runFormMode(): Promise<void> {
 
     if (flow === 'similar') {
       const service = new SimilarNotesService();
-      const results = await service.findSimilar(note, sampleNotes);
+      const results = await service.findSimilar(note, notes);
       console.log('\nResult:');
       console.log(JSON.stringify(results, null, 2));
       return;
@@ -88,7 +113,7 @@ async function runFormMode(): Promise<void> {
 
     if (flow === 'next') {
       const service = new NextStepService();
-      const result = service.recommend(note, sampleNotes);
+      const result = service.recommend(note, notes);
       console.log('\nResult:');
       console.log(JSON.stringify(result, null, 2));
       return;
@@ -110,11 +135,11 @@ async function main(): Promise<void> {
     await runFormMode();
   } else if (mode === 'similar') {
     const service = new SimilarNotesService();
-    const results = await service.findSimilar(note, sampleNotes);
+    const results = await service.findSimilar(note, notes);
     console.log(JSON.stringify(results, null, 2));
   } else if (mode === 'next') {
     const service = new NextStepService();
-    const result = service.recommend(note, sampleNotes);
+    const result = service.recommend(note, notes);
     console.log(JSON.stringify(result, null, 2));
   } else if (mode === 'books') {
     const service = new BookRecommendationsService();

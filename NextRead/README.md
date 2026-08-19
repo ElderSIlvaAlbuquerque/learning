@@ -34,7 +34,7 @@ npx tsx packages/cli/src/index.ts next
 npx tsx packages/cli/src/index.ts books
 ```
 
-With no note id given, these default to the first sample note (`note-graphql-intro`). Pass a note id as the second argument to run the flow against a different one:
+With no note id given, these default to the first note found in the notes directory (see [Notes Directory](#notes-directory) below). Pass a note id as the second argument to run the flow against a different one:
 
 ```bash
 npx tsx packages/cli/src/index.ts similar note-rust-basics
@@ -47,9 +47,37 @@ Each prints JSON results to stdout. After `npm run build`, you can run the compi
 node packages/cli/dist/index.js similar note-rust-basics
 ```
 
+## Notes Directory
+
+The direct CLI commands and manual test form load notes from a directory of Markdown files, resolved in this order:
+
+1. `--dir <path>` passed on the command line:
+
+   ```bash
+   npx tsx packages/cli/src/index.ts similar note-only --dir path/to/other-notes
+   ```
+
+2. The `notesDir` field in `nextread.config.json` at the repo root.
+3. `samples/notes` if neither of the above is set.
+
+Each Markdown file is one note, with metadata in frontmatter:
+
+```markdown
+---
+id: note-rust-basics
+title: Rust Basics
+tags: [rust, systems]
+links: []
+source: obsidian
+updatedAt: 2026-08-01T00:00:00.000Z
+---
+
+Ownership and borrowing in Rust
+```
+
 ## Sample Notes
 
-The CLI and web demo run against sample notes built into the code (`packages/core/src/fixtures/index.ts`). For a human-readable copy you can open, skim, or paste into the manual test form, see [`samples/notes/`](samples/notes/) — three Markdown notes with the same id, tags, links, and content as the built-in fixtures:
+[`samples/notes/`](samples/notes/) is the default notes directory — three ready-to-use Markdown notes you can open, skim, or edit for a quick test:
 
 | id | title |
 | --- | --- |
@@ -57,7 +85,7 @@ The CLI and web demo run against sample notes built into the code (`packages/cor
 | `note-graphql-advanced` | GraphQL Advanced |
 | `note-rust-basics` | Rust Basics |
 
-Use these ids with the direct CLI commands above to pick which note to run the verification against.
+Use these ids with the direct CLI commands above to pick which note to run the verification against. The web demo (`npm run manual:web`) still runs against the built-in fixtures in `packages/core/src/fixtures/index.ts`, which mirror the same three notes.
 
 ## Manual Testing Form
 
