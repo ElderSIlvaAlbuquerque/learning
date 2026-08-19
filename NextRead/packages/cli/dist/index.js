@@ -21,6 +21,7 @@ function extractFlag(rawArgs, name) {
     rest.splice(flagIndex, 2);
     return { value, rest };
 }
+const FORM_RESULT_LIMIT = 5;
 function resolveScorer(engine) {
     if (!engine || engine === 'jaccard') {
         return new JaccardSimilarityScorer();
@@ -100,7 +101,7 @@ async function runFormMode() {
             const service = new SimilarNotesService(formScorer);
             const results = await service.findSimilar(note, notes);
             console.log('\nResult:');
-            console.log(JSON.stringify(results, null, 2));
+            console.log(JSON.stringify(results.slice(0, FORM_RESULT_LIMIT), null, 2));
             return;
         }
         if (flow === 'next') {
@@ -113,7 +114,7 @@ async function runFormMode() {
         const service = new BookRecommendationsService(formScorer);
         const results = await service.recommend(note, loadBooksFromFile(resolveBooksFile()));
         console.log('\nResult:');
-        console.log(JSON.stringify(results, null, 2));
+        console.log(JSON.stringify(results.slice(0, FORM_RESULT_LIMIT), null, 2));
     }
     finally {
         rl.close();
