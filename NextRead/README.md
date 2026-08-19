@@ -111,7 +111,18 @@ That file isn't checked in with real data by default. Populate it once with:
 npm run data:books
 ```
 
-This calls the public [Google Books API](https://developers.google.com/books) (no API key needed) for a handful of topics matching the sample notes (GraphQL, Rust, API design, systems programming, software architecture) and writes the results to `samples/books/books.json`. Re-run it any time to refresh the dataset. It's a one-off local script — it is not run automatically by `npm install`, `npm run build`, or `npm run test`.
+This calls the public [Google Books API](https://developers.google.com/books) for a handful of topics matching the sample notes (GraphQL, Rust, API design, systems programming, software architecture) and writes the results to `samples/books/books.json`. Re-run it any time to refresh the dataset. It's a one-off local script — it is not run automatically by `npm install`, `npm run build`, or `npm run test`.
+
+No API key is required, but Google throttles the anonymous quota aggressively and it's common to hit `429 Too Many Requests` even from a normal home connection. The script retries 429s with backoff automatically, but if it still fails, get a free API key (no billing needed for this API):
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/), create (or pick) a project.
+2. APIs & Services → Library → enable "Books API".
+3. APIs & Services → Credentials → Create Credentials → API key.
+4. Run the script with the key set:
+
+   ```bash
+   GOOGLE_BOOKS_API_KEY=your-key-here npm run data:books
+   ```
 
 ## Manual Testing Form
 

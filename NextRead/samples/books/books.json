@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "book-yrFwDwAAQBAJ",
+    "title": "Introdução ao GraphQL",
+    "authors": [
+      "Eve Porcello",
+      "Alex Banks"
+    ],
+    "description": "Por que o GraphQL é a tecnologia mais inovadora para buscar dados desde o Ajax? Ao oferecer uma linguagem de consulta para suas APIs e um runtime para responder às consultas com seus dados, o GraphQL representa uma alternativa ao REST e às arquiteturas ad hoc dos web services. Com este guia prático, Alex Banks e Eve Porcello apresentam um caminho de aprendizado objetivo aos desenvolvedores web de frontend, engenheiros de backend e gerentes de projeto e de produto que queiram começar a trabalhar com o GraphQL. Você explorará a teoria dos grafos, a estrutura de dados de grafo e os tipos do GraphQL antes de aprender a construir um esquema para uma aplicação de compartilhamento de fotos na prática. Este livro também apresenta o Apollo Client: um framework popular que pode ser usado para conectar o GraphQL à sua interface de usuário. - Explore a teoria dos grafos e analise exemplos conhecidos de grafos em uso nos dias de hoje. - Saiba como o GraphQL aplica métodos de consulta de banco de dados à internet. - Crie um esquema para uma aplicação PhotoShare, que servirá como um roteiro e um contrato entre as equipes de frontend e de backend. - Use JavaScript para implementar um serviço GraphQL totalmente funcional, e o Apollo para implementar um cliente.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-1jszEAAAQBAJ",
+    "title": "GraphQL in Action",
+    "authors": [
+      "Samer Buna"
+    ],
+    "description": "GraphQL in Action gives you the tools to get comfortable with the GraphQL language, build and optimize a data API service, and use it in a front-end client application. Summary Reduce bandwidth demands on your APIs by getting only the results you need—all in a single request! The GraphQL query language simplifies interactions with web servers, enabling smarter API queries that can hugely improve the efficiency of data requests. In GraphQL in Action, you'll learn how to bring those benefits to your own APIs, giving your clients the power to ask for exactly what they need from your server, no more, no less. Practical and example-driven, this book teaches everything you need to get started with GraphQL—from design principles and syntax right through to performance optimization. Purchase of the print book includes a free eBook in PDF, Kindle, and ePub formats from Manning Publications. About the technology GraphQL APIs are fast, efficient, and easy to maintain. They reduce app latency and server cost while boosting developer productivity. This powerful query layer offers precise control over API requests and returns, making apps faster and less prone to error. About the book GraphQL in Action gives you the tools to get comfortable with the GraphQL language, build and optimize a data API service, and use it in a front-end client application. By working through set up, security, and error handling you'll learn to create a complete GraphQL server. You'll also unlock easy ways to incorporate GraphQL into your existing codebase so you can build simple, scalable data APIs. What's inside Define a GraphQL schema for relational and document databases Implement GraphQL types using both the schema language and object constructor methods Optimize GraphQL resolvers with data caching and batching Design GraphQL fragments that match UI components' data requirements Consume GraphQL API queries, mutations, and subscriptions with and without a GraphQL client library About the reader For web developers familiar with client-server applications. About the author Samer Buna has over 20 years of experience in software development including front-ends, back-ends, API design, and scalability. Table of Contents PART 1- EXPLORING GRAPHQL 1 Introduction to GraphQL 2 Exploring GraphQL APIs 3 Customizing and organizing GraphQL operations PART 2 - BUILDING GRAPHQL APIs 4 Designing a GraphQL schema 5 Implementing schema resolvers 6 Working with database models and relations 7 Optimizing data fetching 8 Implementing mutations PART 3 - USING GRAPHQL APIs 9 Using GraphQL APIs without a client library 10 Using GraphQL APIs with Apollo client",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-6403EQAAQBAJ",
+    "title": "Advanced GraphSQL Solutions: Strategies and Techniques for Effective Implementation",
+    "authors": [
+      "Adam Jones"
+    ],
+    "description": "\"Advanced GraphSQL Solutions: Strategies and Techniques for Effective Implementation\" is an essential resource for professionals aiming to elevate their expertise in GraphSQL technology. Designed for both newcomers and seasoned developers, this comprehensive guide navigates through the intricacies of setting up a GraphSQL environment, designing robust schemas, and optimizing performance to seamlessly integrate with contemporary frontend frameworks. Emphasizing practical, real-world applications, each chapter unveils crucial concepts, sophisticated techniques, and industry-proven practices that empower you to craft efficient, scalable, and secure GraphSQL implementations. Explore in-depth discussions on advanced query handling, transaction management, data relationships, and performance tuning, ensuring your applications are both resilient and agile. This book distinguishes itself by blending theoretical insights with actionable guidance, real-world examples, and illustrative case studies that vividly demonstrate the transformative power of GraphSQL. Targeted at developers, IT architects, and technology enthusiasts, \"Advanced GraphSQL Solutions\" serves as both an enlightening educational journey and a dependable reference tool. Unlock the full potential of GraphSQL to redefine how you approach data management and application development, ensuring a more dynamic and robust digital ecosystem.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-8WsvEQAAQBAJ",
+    "title": "GraphQL Best Practices",
+    "authors": [
+      "Artur Czemiel"
+    ],
+    "description": "Get to grips with best practices, advanced techniques, and practical examples in TypeScript for building a scalable and secure backend with seamless frontend integration Key Features Gain detailed guidance for crafting effective GraphQL schemas Explore insights into securing and optimizing GraphQL applications Learn through step-by-step examples, using TypeScript for practical learning Purchase of the print or Kindle book includes a free PDF eBook Book DescriptionIn the ever-evolving landscape of web development, GraphQL has emerged as a powerful query language that addresses the limitations of traditional REST APIs. This guide delves deep into GraphQL, starting with its foundational principles and swiftly advancing to complex topics that will equip you with the skills you need to understand this technology. As you progress, you’ll cover advanced concepts such as schema design, security enhancements, and error handling. You'll also explore essential topics such as federation and the transition from REST to GraphQL, gaining a comprehensive understanding of these critical areas. The book helps you learn through practical examples in TypeScript, guiding you through building scalable and secure GraphQL backends. Additionally, you’ll get up to speed with the intricacies of frontend integration. By the end of this book, you’ll have the skills you need to implement real-world GraphQL solutions, creating efficient and robust applications that meet modern web development demands.What you will learn Understand the core principles of GraphQL Integrate GraphQL with frontend technologies such as Node.js and Next.js Optimize GraphQL queries for better performance Deploy and maintain GraphQL applications with confidence Explore schema design, security, and error handling Scale GraphQL with modular schemas Who this book is for This book is for developers interested in advancing their knowledge of GraphQL, from beginners curious about the basics to experienced developers looking to refine their schema design and security strategies. It's particularly ideal for backend developers, full-stack professionals, and frontend developers who wish to understand GraphQL from the ground up and apply advanced techniques in real-world scenarios. Additionally, this book is a must-read for anyone looking to make their applications more efficient and robust using GraphQL.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-7D64DwAAQBAJ",
+    "title": "Serverless GraphQL APIs with Amazon’s AWS AppSync",
+    "authors": [
+      "Matthias Biehl"
+    ],
+    "description": "This book gets you a running start with serverless GraphQL APIs on Amazon's AWS AppSync. Whether you are new to GraphQL, or you are an experienced GraphQL developer, this book will provide you with the knowledge needed to get started with AWS AppSync. Do you like learning by doing? After quickly covering the GraphQL foundations, you will dive into the practice of developing APIs with AWS AppSync with in-depth walkthroughs, screenshots, and code samples. Do I learn everything I need to get started? The book guides you through the step-by-step process of designing GraphQL APIs: creating a GraphQL schema, developing GraphQL APIs, connecting data sources, developing resolvers with AppSync templates, securing your API, offering real-time data, developing offline support and synchronization for your apps and much more. Why GraphQL? GraphQL is now a viable option for modern API design. And since Facebook, Yelp, and Shopify have built successful APIs with GraphQL, many companies consider following in the technological footsteps of these tech giants. Using GraphQL is great, but by itself, it is only half the rent: It requires the manual installation and maintenance of software infrastructure components. Why Serverless GraphQL with AppSync? AppSync is a cloud-based platform for GraphQL APIs. It is serverless, so you waste no time setting up infrastructure. It scales up and down dynamically depending on the load. It supports your app developers with an SDK for synchronization and offline support. You pay only what you use, so no upfront investment is needed and it may save your organizations thousands of dollars in IT costs.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-fx3w0AEACAAJ",
+    "title": "The Road to GraphQL",
+    "authors": [
+      "Robin Wieruch"
+    ],
+    "description": "The Road to GraphQL is your personal journey to master pragmatic GraphQL in JavaScript. The book is full with applications you are going to build along the way with React.js and Node.js. Afterward, you will be able to implement full-stack JavaScript applications. I wrote the The Road to GraphQL over the last year, while building several GraphQL applications for my clients and for myself. During this time, I came to understand the practical genius of GraphQL, and how it dramatically improves communication in client-server architectures. Not only does it improve the interface between the client and the server, it also enhances client-side state management by eliminating remote data management. Sophisticated GraphQL libraries like Apollo Client provide powerful features like caching, optimistic UI, and data prefetching for free. This book covers the fundamentals of GraphQL itself, as well as its ecosystem. I applied the same principles as my other books: Stay pragmatic Keep it simple Answer the why, not just the how Experience a problem, solve a problem This book is not intended to be an end-all reference for GraphQL APIs, nor an in-depth guide about the internals of the GraphQL specification. Instead, its purpose is to journey through learning GraphQL with JavaScript the pragmatic way, building client and server applications yourself. The book covers lots of facets about GraphQL in JavaScript that are important for building modern applications, without just throwing the libraries like Apollo at problems before experiencing them. It starts with the basic HTTP requests to perform GraphQL queries first, then moves on to using dedicated GraphQL libraries for it. You will even get the chance to implement your own GraphQL client library, so you understand how these libraries work under the hood. There are no hidden abstractions in this book, just plenty of fundamentals for JavaScript, React.js, Node.js, and GraphQL. Requirements To get the most out of this book, you should be familiar with the basics of web development, which includes some knowledge of HTML, CSS and JavaScript. You will also need to be familiar with the term API, because they are discussed frequently. I encourage you to join the official Slack Group for the book, help or get help from others. React On the client-side, this book uses React to teach about GraphQL in JavaScript. My other book called The Road to learn React teaches you all the fundamentals about React. It also teaches you to make the transition from JavaScript ES5 to JavaScript ES6. The book is available for free and after having read the Road to learn React, you should possess all the knowledge to implement the GraphQL client-side application with this book. Node On the server-side, this book uses Node with Express as library to teach about GraphQL in JavaScript. You don't need to know much about those technologies before using them for your first GraphQL powered applications. The book will guide you through the process of setting up a Node application with Express and shows you how to weave GraphQL into the mix. Afterward, you should be able to consume the GraphQL API provided by your server-side application in your client-side application.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-L232DwAAQBAJ",
+    "title": "Building GraphQL API Services with ASP.NET Core",
+    "authors": [
+      "Rully Yulian MF"
+    ],
+    "description": "This book discusses the development of API Services using GraphQL on top of the ASP.NET Core framework. GraphQL is a language for querying or manipulating resources or data against data sources such as databases. In addition, graphql also provides a runtime for processing queries and other graphql objects. The language and runtime were originally built by Facebook in 2012 to be used internally. In 2015 graphql began to be published in open source to the public. GraphQL provides another alternative for developing api services besides those based on REST. Several leading companies including Facebook itself already use graphql such as github, pinterest, airbnb, paypal, twitter, and others. There are several things that distinguish graphql from rest services, including: - GraphQL provides data according to your needs, nothing less and nothing more. Output data properties or columns can be determined dynamically, in contrast to rest services that have determined data from any column to be displayed. - GraphQL provides one endpoint for all resources or all data provided, in contrast to rest api that provides resources or data through multiple endpoints or multiple controllers. - The data response displayed from graphql will be structurally the same as the data structure requested by the client. - GraphQL can provide multiple resources or data in one request. Rest services should provide it with multiple urls. The topics described in this book start from the explanation of graphql & asp.net core architecture; installation of the necessary libraries; creation of asp.net core web in visual studio; use of ef core for database access sql server & postgresql; use of queries and mutations; use of tools for graphql access; use of logging and data loaders; real-time services with subscription; implementation of asp.net core identity; use of jwt authentication; deployment; and many more. The discussion in this book is carried out in stages, so that it is hoped that after studying it, readers will have sufficient skills or abilities to build GraphQL-based services with ASP.NET Core according to the needs in the field. Hopefully this book can be another alternative as a learning resource for exercises, tutorials, or a reference for those who want to learn the backend programming of GraphQL API Services with ASP.NET Core that is connected to SQL Server and PostgreSQL databases.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-GPBbEAAAQBAJ",
+    "title": "Full-Stack Web Development with GraphQL and React",
+    "authors": [
+      "Sebastian Grebe"
+    ],
+    "description": "Unleash the power of GraphQL, React 17, Node, and Express to build a scalable and production-ready application from scratch to be deployed on AWS Key Features Build full-stack applications with modern APIs using GraphQL and React Hooks Integrate Apollo into React and build frontend components using GraphQL Implement a self-updating notification pop-up with a unique GraphQL feature called Subscriptions Book DescriptionReact and GraphQL, when combined, provide you with a very dynamic, efficient, and stable tech stack to build web-based applications. GraphQL is a modern solution for querying an API that represents an alternative to REST and is the next evolution in web development. This book guides you in creating a full-stack web application from scratch using modern web technologies such as Apollo, Express.js, Node.js, and React. First, you’ll start by configuring and setting up your development environment. Next, the book demonstrates how to solve complex problems with GraphQL, such as abstracting multi-table database architectures and handling image uploads using Sequelize. You’ll then build a complete Graphbook from scratch. While doing so, you’ll cover the tricky parts of connecting React to the backend, and maintaining and synchronizing state. In addition to this, you’ll also learn how to write Reusable React components and use React Hooks. Later chapters will guide you through querying data and authenticating users in order to enable user privacy. Finally, you’ll explore how to deploy your application on AWS and ensure continuous deployment using Docker and CircleCI. By the end of this web development book, you'll have learned how to build and deploy scalable full-stack applications with ease using React and GraphQL.What you will learn Build a GraphQL API by implementing models and schemas with Apollo and Sequelize Set up an Apollo Client and build frontend components using React Write Reusable React components and use React Hooks Authenticate and query user data using GraphQL Use Mocha to write test cases for your full-stack application Deploy your application to AWS using Docker and CircleCI Who this book is for This React GraphQL book is for web developers familiar with React and GraphQL who want to enhance their skills and build full-stack applications using industry standards like React, Apollo, Node.js, and SQL at scale while learning to solve complex problems with GraphQL.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-71LZDwAAQBAJ",
+    "title": "Production Ready GraphQL",
+    "authors": [
+      "Marc-Andre Giroux"
+    ],
+    "description": "While GraphQL is a technology mainly driven by the needs of clients, there is a clear lack of resources on how to build reliable GraphQL servers. Over the last few years, I helped build and maintain some of the biggest GraphQL APIs out there at both Shopify and GitHub. During those years, I also worked with various companies with their adoption of GraphQL. From my experiences with GraphQL, I’ve observed the good, the bad, and the ugly. This led to many talks and blog posts on the subject, but still found that teams and individuals willing to use GraphQL in a pragmatic way lacked the resources to do so. This is what lead me to write this book: A collection of learnings and good practices when building GraphQL schemas at scale. Every language and every GraphQL implementation does things slightly differently. This book is completely language agnostic and instead focuses on concepts and patterns that are achievable no matter how you're building a GraphQL server. Think of it as a complete journey of what goes into building a GraphQL API, from design, to architectures, to implementation, and even documentation.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-1RtBzQEACAAJ",
+    "title": "Learning GraphQL",
+    "authors": [
+      "Eve Porcello",
+      "Alex Banks"
+    ],
+    "description": "Why is GraphQL the most innovative technology for fetching data since Ajax? By providing a query language for your APIs and a runtime for fulfilling queries with your data, GraphQL presents a clear alternative to REST and ad hoc web service architectures. With this practical guide, Alex Banks and Eve Porcello deliver a clear learning path for frontend web developers, backend engineers, and project and product managers looking to get started with GraphQL. You'll explore graph theory, the graph data structure, and GraphQL types before learning hands-on how to build a schema for a photo-sharing application. This book also introduces you to Apollo Client, a popular framework you can use to connect GraphQL to your user interface. Explore graph theory and review popular graph examples in use today Learn how GraphQL applies database querying methods to the internet Create a schema for a PhotoShare application that serves as a roadmap and a contract between the frontend and backend teams Use JavaScript to build a fully functioning GraphQL service and Apollo to implement a client Learn how to prepare GraphQL APIs and clients for production.",
+    "categories": [
+      "Application software"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-A5yiEQAAQBAJ",
+    "title": "Ultimate GraphQL for Scalable Web Apps: Build and Scale Production-Ready Applications Using GraphQL, React, Node.js, and Apollo",
+    "authors": [
+      "Robins Gupta"
+    ],
+    "description": "Master GraphQL to build scalable, production-ready web applications. Key Features● Build a complete Netflix-style streaming platform using GraphQL, React, Node.js, and Apollo.● Master production-grade concepts including DataLoader, caching, scalability, and performance tuning.● Learn by doing, and progress from GraphQL fundamentals to advanced real-world full-stack development. Book DescriptionAPIs power modern web applications, but traditional REST often lacks flexibility and scalability. GraphQL changes that by offering a faster, more efficient way to fetch and manage data. Ultimate GraphQL for Scalable Web Apps takes you from core concepts to production-ready apps, helping you build real-world, high-performance web applications with confidence. Through the hands-on creation of Streamify, a Netflix-style streaming platform, you can master the complete GraphQL ecosystem using Node.js, Express, Apollo Server, MongoDB, React, and Apollo Client. From designing schemas and writing efficient queries to building authentication systems and recommendation engines, every concept is grounded in real-world development. This is not a theory-heavy manual. It is a practical, project-driven guide. Each chapter builds on real implementation, helping you craft an admin panel, design a compelling interface, implement rating systems, and develop intelligent recommendations. You will confront production challenges head-on, solving the N+1 query problem with DataLoader, implementing advanced caching for performance, and architecting scalable backends for real-world traffic. Thus, by the end, you will confidently design GraphQL schemas, optimize queries, and build scalable, production-grade web applications. You will understand not just how GraphQL works, but why it matters, equipping you well to architect modern, high-performance applications that meet today’s demanding scalability standards! What you will learn● Design and implement production-ready GraphQL APIs with Apollo Server.● Build full-stack applications using React, Node.js, and MongoDB stack.● Solve N+1 query problems using DataLoader for optimal performance.● Implement advanced caching strategies on frontend and backend layers.● Create scalable architectures that handle real-world traffic and growth.● Develop authentication systems, rating features, and recommendation engines efficiently.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-Sn6BEAAAQBAJ",
+    "title": "Full Stack GraphQL Applications",
+    "authors": [
+      "William Lyon"
+    ],
+    "description": "Build hyper-fast and hyper-efficient web applications with GraphQL! This practical, comprehensive guide introduces the powerful GRANDStack for developing full stack web applications based in graph data structures. In Full Stack GraphQL Applications you will learn how to: Build backend functionalities for GraphQL applications Model a GraphQL API with GraphQL type definitions Utilize Neo4j as a backend database Handle authentication and authorization with GraphQL Implement pagination and rate limiting in a GraphQL API Develop a GraphQL service with Apollo Server Install Neo4j Database on different platforms Create a basic frontend application using React and Apollo Client Deploy a full stack GraphQL application to the cloud The GraphQL query language radically reduces over-fetching or under-fetching of data by constructing precise graph-based data requests. In Full Stack GraphQL Applications you’ll learn how to build graph-aware web applications that take full advantage of GraphQL’s amazing efficiency. Neo4j’s William Lyon teaches you everything you need to know to design, deploy, and maintain a GraphQL API from scratch. He reveals how you can build your web apps with GraphQL, React, Apollo, and Neo4j Database, aka “the GRANDstack,” to get maximum performance out of GraphQL. About the technology The GraphQL API query language radically streamlines data exchanges with backend servers by representing application data as easy-to-understand graphs. You can amplify GraphQL’s benefits by using graph-aware tools and data stores, like React, Apollo, and Neo4j, throughout your application. A full stack graph approach provides a consistent data model end to end, reducing friction in data fetching and increasing developer productivity. About the book Full Stack GraphQL Applications teaches you to build graph-aware web applications using GraphQL, React, Apollo, and the Neo4j database, collectively called “the GRANDstack.” Practical, hands-on examples quickly develop your understanding of how the GRANDstack fits together. As you go, you’ll create and deploy to the cloud a full-featured web application that includes search, authentication, and more. Soon, you’ll be ready to deploy end-to-end applications that take full advantage of GraphQL’s outstanding performance. What's inside Building a GraphQL backend using Neo4j Authentication and authorization with GraphQL Pagination and GraphQL abstract types A basic frontend application using React and Apollo Client Deploying to the cloud with Netlify, AWS Lambda, Auth0, and Neo4j Aura About the reader For full stack web developers. No experience with GraphQL or graph databases required. About the author William Lyon is a Staff Developer Advocate at Neo4j and blogger at lyonwj.com. Table of Contents PART 1 GETTING STARTED WITH FULL STACK GRAPHQL 1 What is full stack GraphQL? 2 Graph thinking with GraphQL 3 Graphs in the database 4 The Neo4j GraphQL Library PART 2 BUILDING THE FRONTEND 5 Building user interfaces with React 6 Client-side GraphQL with React and Apollo Client PART 3 FULL STACK CONSIDERATIONS 7 Adding authorization and authentication 8 Deploying our full stack GraphQL application 9 Advanced GraphQL considerations",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-lX_ouQEACAAJ",
+    "title": "Beginning GraphQL",
+    "authors": [
+      "Brian Kimokoti"
+    ],
+    "description": "Over-fetching and under-fetching data can negatively impact the performance of your web application. Future-proof your API structure and handle key development requirements by correctly defining types and schemas in GraphQL. Key Features Includes server-side implementations using GraphQL.js, Apollo, Graphcool, and Prisma Understand an example client-side implementation of GraphQL in ReactJS using Apollo Implement over 20 practical activities and exercises across 5 topics that enable you to efficiently use GraphQL in production Book Description Though fairly new, GraphQL is quickly rising in popularity when it comes to API development. This book will teach you everything you need to know to start building efficient APIs with GraphQL. You'll begin by learning to create a simple scaffold application using Node.js and Express. Then, you'll explore core GraphQL concepts and study how GraphQL integrates with other frameworks in real-life business applications. By the end of the book, you will be able to successfully create efficient client-server REST-like applications. What you will learn Understand core GraphQL concepts that can be used across different languages Understand the overall structure of GraphQL applications Use Apollo GraphQL for both server and client JavaScript applications Understand the key differences between GraphQL and REST Who this book is for This book is ideal for developers who want to broaden their understanding of API development. Prior experience to JavaScript is required, with any prior work with React or Node.js being beneficial.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-9QkI0AEACAAJ",
+    "title": "Learning GraphQL",
+    "authors": [
+      "Eve Porcello"
+    ],
+    "description": "Data-driven applications depend on remote queries that run through APIs. GraphQL-a query language for APIs that was originally built by Facebook-allows developers to choose the kinds of requests they want to make and to receive information on multiple facets of that query in one request. The GraphQL approach to querying across networks can address a wide variety of large-scale development problems. In this course, learn how to get started with GraphQL. Eve Porcello introduces the basics of this query language, then walks through queries, variables, and operation names. Eve explains how to work with mutations and subscriptions, as well as how to create and enhance schema. She covers topics like creating a custom object, adding an enumeration type, writing schema documentation, and much more. Note: This course was created by Moon Highway. We are pleased to host this training in our library.",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-CUfrwQEACAAJ",
+    "title": "Visual Design of GraphQL Data",
+    "authors": [],
+    "description": "Get an introduction to the visual design of GraphQL data and concepts, including GraphQL structures, semantics, and schemas in this compact, pragmatic book. In it you will see simple guidelines based on lessons learned from real-life data discovery and unification, as well as useful visualization techniques. These in turn help you improve the quality of your API designs and give you the skills to produce convincing visual communications about the structure of your API designs. Finally, Visual Design of GraphQL Data shows you how to handle GraphQL with legacy data as well as with Neo4j graph databases. Spending time on schema quality means that you will work from sharper definitions, which in turn leads to greater productivity and well-structured applications. What You Will Learn Create quality GraphQL data designs Avoid structural mistakes Draw highly communicative property graph diagrams of your APIs Who This Book Is For Web developers and data architects who work with GraphQL and other APIs to build modern applications.",
+    "categories": [
+      "Application program interfaces (Computer software)"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-9JGV0QEACAAJ",
+    "title": "GraphQL from Ground Zero",
+    "authors": [
+      "Amara Hawthorn"
+    ],
+    "description": "GraphQL from Ground Zero takes you on a hands-on journey from absolute beginner to building your own fully functional GraphQL API-no prior GraphQL experience required. Whether you're coming from a REST background or just starting your backend development journey, this book will help you master GraphQL through clear explanations and practical, real-world projects. Inside, you'll learn: The core concepts of GraphQL - queries, mutations, schemas, resolvers, and types How GraphQL differs from REST-and why it's a game-changer for modern APIs Step-by-step setup of a GraphQL server with Node.js and Apollo Server Connecting your API to a database and returning exactly the data you need-no more, no less Implementing authentication, pagination, and error handling for production-ready APIs Testing and deploying your GraphQL API so it's robust and ready for real-world use Every chapter builds on the last, guiding you through a complete, working API that you can adapt for your own projects. By the end, you'll not only understand GraphQL-you'll be able to use it confidently to create powerful, flexible, and efficient APIs. If you've ever wanted to escape the limitations of REST, simplify your data fetching, and deliver lightning-fast applications, this is your ultimate starting point. Perfect for: REST API developers curious about GraphQL Backend beginners who want a modern, marketable skill Frontend developers who want more control over the data they consume Stop fetching data the old way. Build smarter APIs with GraphQL-starting today",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-biWb0QEACAAJ",
+    "title": "GraphQL in Action with React and Node.js",
+    "authors": [
+      "Alexis Walles"
+    ],
+    "description": "Book DescriptionGraphQL in Action with React and Node.js: Build Full-Stack JavaScript Apps with Apollo, Queries, and Mutations is your complete, hands-on guide to mastering modern GraphQL development. Whether you're a frontend developer looking to fetch data more efficiently, a backend engineer designing scalable APIs, or a full-stack developer ready to bring it all together, this book gives you the knowledge and practical skills to succeed.Why This Book?GraphQL has changed the way developers build APIs. Unlike REST, GraphQL allows clients to ask for exactly the data they need - no more over-fetching, no more under-fetching. With React on the frontend, Node.js on the backend, and Apollo as the glue between them, you'll learn how to design, build, and deploy production-ready applications that are both efficient and scalable.What You'll Learn InsideThe fundamentals of GraphQL: schema, queries, mutations, and subscriptions.How to build a GraphQL server in Node.js with Apollo Server.Connecting GraphQL APIs to real databases like MongoDB and PostgreSQL.Fetching data in React with Apollo Client using hooks such as useQuery, useMutation, and useSubscription.Handling state, errors, and real-time updates with best practices.Implementing authentication and authorization with JWT and role-based access control.Testing, debugging, and optimizing GraphQL APIs for performance and security.Deploying full-stack GraphQL applications to Heroku, Vercel, Docker, and Kubernetes.Who This Book Is ForFrontend developers who want to simplify data fetching in React.Backend developers looking to create flexible and powerful APIs.Full-stack developers ready to integrate GraphQL into real-world projects.Beginners who are new to GraphQL and advanced developers who want a solid reference for best practices.Why It MattersToday's applications need to handle complex data, scale to millions of users, and deliver seamless real-time experiences. GraphQL gives you the power to do all of this without the pain of traditional APIs. By the end of this book, you won't just know GraphQL - you'll be confident building production-ready applications with it.Call to ActionIf you're ready to build faster, smarter, and more scalable applications with React, Node.js, and Apollo, this book is for you. Don't settle for outdated REST patterns or guesswork - take control of your APIs and deliver better experiences to your users.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-_CTG0QEACAAJ",
+    "title": "GraphQL with Python for Beginners",
+    "authors": [
+      "Alira Vexel"
+    ],
+    "description": "GraphQL with Python for Beginners is the complete, modern, hands-on guide for anyone who wants to build real GraphQL APIs using today's most powerful Python frameworks. Designed for absolute beginners, self-taught developers, and professionals moving from REST to GraphQL, this book takes you step-by-step from core concepts to deploying a fully working, production-ready GraphQL API. You'll learn how to build fast, scalable, async GraphQL backends using FastAPI, Strawberry, and Ariadne-the three most important frameworks for Python GraphQL development in 2025. Every chapter is practical and project-driven, with clear examples, structured workflows, and real code that you can run immediately. Across the book, you will master the tools and practices that modern API developers rely on today: AsyncIO, Pydantic, SQLAlchemy 2.0 Async ORM, Dataloaders for N+1 prevention, JWT authentication, role-based access control, pagination, validation, caching, logging, testing, and Docker deployment. Nothing abstract-everything real, relevant, and ready to use. You won't just learn GraphQL. You'll build it. Inside, you'll discover how to: Understand the core GraphQL model: schemas, queries, mutations, subscriptions, types and resolvers Build modern async GraphQL APIs using FastAPI + Strawberry Use Ariadne for schema-first GraphQL design and SDL workflows Model real databases with SQLAlchemy 2.0 Async, relationships, and migrations Prevent N+1 performance issues with aiodataloader Implement secure API authentication using JWTs and enforce RBAC Add pagination, filtering, and query optimization to large datasets Apply caching with Redis for performance-critical fields Write robust tests, logs, and error handlers for production environments Package and deploy your GraphQL API using Docker, Uvicorn, and environment-based settings Build a complete end-to-end project combining all features into a real application Each chapter includes a Practice Lab so you learn by doing, not by reading. At the end of the book, you'll build a full-stack, production-ready GraphQL backend-from schema design to deployment-giving you skills you can use in real workplaces and real projects. Whether you're new to GraphQL, improving your Python API skills, or upgrading legacy REST systems, this book gives you everything you need to design modern, efficient and scalable APIs from scratch. Master GraphQL. Master modern Python APIs. Build real projects that work.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-1-1IzQEACAAJ",
+    "title": "Rethinking REST",
+    "authors": [
+      "Arianne Dee"
+    ],
+    "description": "4+ Hours of Video Instruction Since being released by Facebook, GraphQL has been adopted as the API standard of choice by companies such as GitHub, Yelp, Intuit, and the New York Times. GraphQL improves upon REST APIs by providing an explorable and self-documented way of getting exactly the data you need for your application. Whether you're working on a mobile app or a dashboard view, no matter how small or large the project, GraphQL is an important new tool for any application developer to know. Description This 4+ hour LiveLesson video course provides a thorough overview about the why's, what's, and how's of GraphQL, an API query language that has been making waves in the developer community. Given its potential to become the new standard for creating data APIs, this video series will give you the tools to discuss its pros and cons and implement it in a project. The lessons start with a high-level introduction to the language, its features, and best practices for creating a production-ready API. In the latter part, the lessons provide guided tutorials for creating a GitHub dashboard using their existing API and building your own GraphQL API from scratch using either the Node.js or Django frameworks. Download the related files from http://www.informit.com/store/rethinking-rest-a-hands-on-guide-to-graphql-and-queryable-9780135381441 . About the Instructor Arianne Dee is a software developer and educator from the University of British Columbia. She loves Python for its versatility and community, and GraphQL because it makes APIs fun and intuitive. She is an instructor for Canada Learning Code and a maker at MakerLabs in Vancouver, BC. While working as a back-end developer at 7Geese, she worked on creating their GraphQL API in Django. Since then, she has done training, spoken at conferences, and developed her own GraphQL server library for Django. Skill Level Beginning to Intermediate What You Will Learn Learn all about GraphQL and its core features Learn how to consume a GraphQL API by building a simple Github client Build a GraphQL API from scratch in your choice of Node.js or Django Learn how to use the GraphiQL app to improve your GraphQL workflows Explore working with GraphQL mutations and directives Learn best practices for production environments: pagination, security, and caching Who Should Take This Course Django or Node developers who want to learn how to get started building a GraphQL API Front-end developers who want to learn how to...",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-SE2GEAAAQBAJ",
+    "title": "The Rust Programming Language, 2nd Edition",
+    "authors": [
+      "Steve Klabnik",
+      "Carol Nichols"
+    ],
+    "description": "With over 50,000 copies sold, The Rust Programming Language is the quintessential guide to programming in Rust. Thoroughly updated to Rust’s latest version, this edition is considered the language’s official documentation. The Rust Programming Language \"covers everything you could want to know about the language.\"—Stack Overflow Rust has been repeatedly voted \"Most Loved Language\" on the StackOverflow Developer Survey. The Rust Programming Language, 2nd Edition is the official guide to Rust 2021: an open source systems programming language that will help you write faster, more reliable software. Rust provides control of low-level details along with high-level ergonomics, allowing you to improve productivity and eliminate the hassle traditionally associated with low-level languages. Klabnik and Nichols, alumni of the Rust Core Team, share their knowledge to help you get the most out of Rust’s features so that you can create robust and scalable programs. You’ll begin with basics like creating functions, choosing data types, and binding variables, then move on to more advanced concepts, such as: Ownership and borrowing, lifetimes, generics, traits, and trait objects to communicate your program’s constraints to the compiler Smart pointers and multithreading, and how ownership interacts with them to enable fearless concurrency How to use Cargo, Rust’s built-in package manager, to build, document your code, and manage dependencies The best ways to test, handle errors, refactor, and take advantage of expressive pattern matching In addition to the countless code examples, you’ll find three chapters dedicated to building complete projects: a number-guessing game, a Rust implementation of a command line tool, and a multithreaded server.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-a8l9EAAAQBAJ",
+    "title": "The Rust Programming Language, 2nd Edition",
+    "authors": [
+      "Steve Klabnik",
+      "Carol Nichols"
+    ],
+    "description": "With over 50,000 copies sold, The Rust Programming Language is the quintessential guide to programming in Rust. Thoroughly updated to Rust’s latest version, this edition is considered the language’s official documentation. The Rust Programming Language \"covers everything you could want to know about the language.\"—Stack Overflow Rust has been repeatedly voted \"Most Loved Language\" on the StackOverflow Developer Survey. The Rust Programming Language, 2nd Edition is the official guide to Rust 2021: an open source systems programming language that will help you write faster, more reliable software. Rust provides control of low-level details along with high-level ergonomics, allowing you to improve productivity and eliminate the hassle traditionally associated with low-level languages. Klabnik and Nichols, alumni of the Rust Core Team, share their knowledge to help you get the most out of Rust’s features so that you can create robust and scalable programs. You’ll begin with basics like creating functions, choosing data types, and binding variables, then move on to more advanced concepts, such as: Ownership and borrowing, lifetimes, generics, traits, and trait objects to communicate your program’s constraints to the compiler Smart pointers and multithreading, and how ownership interacts with them to enable fearless concurrency How to use Cargo, Rust’s built-in package manager, to build, document your code, and manage dependencies The best ways to test, handle errors, refactor, and take advantage of expressive pattern matching In addition to the countless code examples, you’ll find three chapters dedicated to building complete projects: a number-guessing game, a Rust implementation of a command line tool, and a multithreaded server.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-qAOhDwAAQBAJ",
+    "title": "The Rust Programming Language (Covers Rust 2018)",
+    "authors": [
+      "Steve Klabnik",
+      "Carol Nichols"
+    ],
+    "description": "The official book on the Rust programming language, written by the Rust development team at the Mozilla Foundation, fully updated for Rust 2018. The Rust Programming Language is the official book on Rust: an open source systems programming language that helps you write faster, more reliable software. Rust offers control over low-level details (such as memory usage) in combination with high-level ergonomics, eliminating the hassle traditionally associated with low-level languages. The authors of The Rust Programming Language, members of the Rust Core Team, share their knowledge and experience to show you how to take full advantage of Rust's features--from installation to creating robust and scalable programs. You'll begin with basics like creating functions, choosing data types, and binding variables and then move on to more advanced concepts, such as: Ownership and borrowing, lifetimes, and traits Using Rust's memory safety guarantees to build fast, safe programs Testing, error handling, and effective refactoring Generics, smart pointers, multithreading, trait objects, and advanced pattern matching Using Cargo, Rust's built-in package manager, to build, test, and document your code and manage dependencies How best to use Rust's advanced compiler with compiler-led programming techniques You'll find plenty of code examples throughout the book, as well as three chapters dedicated to building complete projects to test your learning: a number guessing game, a Rust implementation of a command line tool, and a multithreaded server. New to this edition: An extended section on Rust macros, an expanded chapter on modules, and appendixes on Rust development tools and editions.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-Nm9REQAAQBAJ",
+    "title": "The Rust Programming Language, 3rd Edition",
+    "authors": [
+      "Steve Klabnik",
+      "Carol Nichols",
+      "Chris Krycho"
+    ],
+    "description": "Build stable, production-grade systems with Rust. The Rust Programming Language, 3rd Edition, teaches you to write code that the compiler can verify, teams can maintain, and systems can evolve safely over time. Written by longtime Rust community members, this book shows you how to work effectively with Rust’s type system, concurrency model, and tooling, using patterns and idioms chosen for long-term stability. Learn how to: Design programs that communicate their invariants to the compiler Use ownership, lifetimes, and traits to model real-world constraints Write concurrent and multithreaded code with confidence and clarity Build, test, document, and refactor projects using Cargo effectively Handle errors explicitly and idiomatically Apply expressive pattern matching to simplify complex logic Three substantial project chapters—focusing on a number-guessing game, a command-line tool, and a multithreaded server—demonstrate how these concepts work together in complete, real programs. Whether you’re new to Rust or already using it in production, this book helps you write code that scales safely and makes its guarantees explicit. New to this edition: Complete async programming chapter Miri for analyzing unsafe code Built on the Rust 2024 Edition Modern Rust idioms, tooling, and practices",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-QbhEzgEACAAJ",
+    "title": "Rust Programming Language",
+    "authors": [
+      "mEm lnc",
+      "Claudia Alves"
+    ],
+    "description": "After reading this book, you'll be ready to build Rust applications. Why learn a new Programming Language? As Einstein might have said, \"As gentle as possible, but no gentler.\". There is a lot of new stuff to learn here, and it's different enough to require some rearrangement of your mental furniture. By 'gentle' I mean that the features are presented practically with examples; as we encounter difficulties, I hope to show how Rust solves these problems. It is important to understand the problems before the solutions make sense. To put it in flowery language, we are going for a hike in hilly country and I will point out some interesting rock formations on the way, with only a few geology lectures. There will be some uphill but the view will be inspiring; the community is unusually pleasant and happy to help. There is the Rust Users Forum and an active subreddit which is unusually well-moderated. The FAQ is a good resource if you have specific questions.First, why learn a new programming language? It is an investment of time and energy and that needs some justification. Even if you do not immediately land a cool job using that language, it stretches the mental muscles and makes you a better programmer. That seems a poor kind of return-on-investment but if you're not learning something genuinely new all the time then you will stagnate and be like the person who has ten years of experience in doing the same thing over and over. Where Rust Shines Rust is a statically and strongly typed systems programming language. statically means that all types are known at compile-time, strongly means that these types are designed to make it harder to write incorrect programs. A successful compilation means you have a much better guarantee of correctness than with a cowboy language like C. systems means generating the best possible machine code with full control of memory use. So the uses are pretty hardcore: operating systems, device drivers and embedded systems that might not even have an operating system. However, it's actually a very pleasant language to write normal application code in as well.The big difference from C and C is that Rust is safe by default; all memory accesses are checked. It is not possible to corrupt memory by accident.The unifying principles behind Rust are: strictly enforcing safe borrowing of data functions, methods and closures to operate on data tuples, structs and enums to aggregate data pattern matching to select and destructure data traits to define behaviour on data Want To Know More?Scroll to the top and select buy.",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-4ox3EQAAQBAJ",
+    "title": "Rust Programming Language for Beginners",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Rust Programming Language for Beginners The Ultimate Beginner’s Guide to Safe and Fast Programming Ready to dive into one of the fastest, safest, and most in-demand languages today? Whether you’re new to coding or transitioning from languages like C or Python, this Rust programming language book is the perfect starting point for your journey into the world of Rust programming. This guide is more than just a tutorial—it’s a complete Rust programming language for beginners experience, designed to help you build a strong foundation before moving into more advanced concepts and real-world applications. ✅ What You’ll Learn Inside This Book: 🔰 A Beginner-Friendly Rust Programming Language Tutorial Learn the fundamentals of the Rust language with clarity: variables, data types, control flow, and basic functions. Perfect for those looking for a reliable and structured Rust programming language tutorial. 🔐 Master Rust’s Unique Features Understand ownership, borrowing, and lifetimes—core principles of the Rust computer language that ensure memory safety without a garbage collector. 🧱 Explore Real-World Use Cases Discover how Rust programming language use cases apply to web servers, embedded systems, and high-performance applications. Includes Rust programming language examples and code walkthroughs. 📚 Get Comfortable with Documentation & Tools Learn how to navigate official Rust programming language documentation, use Cargo for project management, and find community resources like the Rust programming language wiki. 🧩 Rust Functional Programming & Object-Oriented Patterns Explore advanced concepts such as functional programming in Rust, pattern matching, traits, and more. 🎯 Who This Book Is For: Absolute beginners looking to learn Rust programming language from the ground up Developers coming from C, Python, or Golang who want to explore programming in Rust Students, professionals, and hobbyists seeking the best way to learn Rust Anyone using a Google Rust course or interested in a Rust programming language download and wanting hands-on guidance Coders eager to understand the uses of Rust programming language in modern development environments 🌐 Why Rust? Why Now? The Rust programming language, also known as the Rust programming language, was created by Graydon Hoare and is now trusted by tech giants like Google and Microsoft. It's consistently voted the most loved programming language—and for good reason. Combines safety, speed, and concurrency Ideal for web programming, system-level development, scripting, and more Frequently compared to C Rust and Rust Golang for its performance and security advantages Popular for building Rust lang web server applications and cross-platform tools 📘 Start Rust Coding Today Whether you're building your first project, prepping for a tech interview, or looking to deepen your development skills, this book will help you learn Rust language effectively—with practical examples, expert guidance, and easy-to-follow lessons. ➡️ Scroll up and get your copy now—unlock the full power of the Rust programming language and build safer, faster, and more reliable software today.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-4y1hzgEACAAJ",
+    "title": "Best Practices of Rust Programming Language",
+    "authors": [
+      "Pawan Bisht"
+    ],
+    "description": "Book Description This book is a part of Knoldus Rust Programming Series and it is a core compilation of the best approaches to handle scenarios in Rust.You don't need any special knowledge or understanding of technology to understand the concepts in this book except basic knowledge of Rust because we will be using Rust as a programming language. The aim of this book is to make developers aware of best practices of Rust. In this book, you'll get to know all the best approaches a developer should follow and rules that should keep in mind at the time of development. What this book covers:Chapter 1: Introduction to Rust: This chapter introduces us to the existence of Rust in the programming world.Chapter 2: Usage of Ownership: Here we will understand the concept of Ownership in Rust World that how ownership helps in terms of memory safety by applying certain rules of ownership.Chapter 3: Handling threads using async/await: This chapter takes us into deep-dive straight to programming world with an asynchronous vision where we can write block of codes in blocking and non-blocking manner by using async/await.Chapter 4: Unit Test Cases: In this chapter, we will get to know the different ways of writing unit-test cases in Rust world. Chapter 5: Clippy, Rustfmt, & Tarpaulin Code Quality Tools: In this section, we will understand the significance of code quality tools i.e., Clippy, Rustfmt, & Tarpaulin. And how to customise these tools. Chapter 6: Key Points for Efficient Development: This chapter covers certain topics for efficient development like Closures, Generics, Builder Patterns, Enums, Effective Debugging, etc. There are a lot of various books and information on the internet about explaining Rust Programming Language and in this book I tried to compile the best approaches to code in Rust in a single book. About the Author: Pawan Singh Bisht is a Software Consultant based in India. He is currently working with Knoldus, an organization where knowledge sharing and upskilling each Knolder is a way of life, which is the only organization to be partners with Lightbend, Databricks, Confluent, and Datastax to deliver high-quality reactive products to its global clients. He loves to troubleshoot complex problems and look for efficient solutions.In his career, he has successfully developed and delivered various applications with Java, Spring, and Rust. He has been involved in Rust contributions for the last couple of months. He writes technical blogs. Most of his blogs are related to Rust.",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-FHxeDwAAQBAJ",
+    "title": "Hands-On Concurrency with Rust",
+    "authors": [
+      "Brian L. Troutwine"
+    ],
+    "description": "Get to grips with modern software demands by learning the effective uses of Rust\\'s powerful memory safety. Key Features [*] Learn and improve the sequential performance characteristics of your software [*] Understand the use of operating system processes in a high-scale concurrent system [*] Learn of the various coordination methods available in the Standard library Book DescriptionMost programming languages can really complicate things, especially with regard to unsafe memory access. The burden on you, the programmer, lies across two domains: understanding the modern machine and your language's pain-points. This book will teach you to how to manage program performance on modern machines and build fast, memory-safe, and concurrent software in Rust. It starts with the fundamentals of Rust and discusses machine architecture concepts. You will be taken through ways to measure and improve the performance of Rust code systematically and how to write collections with confidence. You will learn about the Sync and Send traits applied to threads, and coordinate thread execution with locks, atomic primitives, data-parallelism, and more. The book will show you how to efficiently embed Rust in C++ code and explore the functionalities of various crates for multithreaded applications. It explores implementations in depth. You will know how a mutex works and build several yourself. You will master radically different approaches that exist in the ecosystem for structuring and managing high-scale systems. By the end of the book, you will feel comfortable with designing safe, consistent, parallel, and high-performance applications in Rust.What you will learn Probe your programs for performance and accuracy issues Create your own threading and multi-processing environment in Rust Use coarse locks from Rust's Standard library Solve common synchronization problems or avoid synchronization using atomic programming Build lock-free/wait-free structures in Rust and understand their implementations in the crates ecosystem Leverage Rust's memory model and type system to build safety properties into your parallel programs Understand the new features of the Rust programming language to ease the writing of parallel programs Who this book is for This book is aimed at software engineers with a basic understanding of Rust who want to exploit the parallel and concurrent nature of modern computing environments, safely.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-NI13EQAAQBAJ",
+    "title": "Rust Programming Language for Operating Systems",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Rust Programming Language for Operating Systems Build Secure and High-Performance Operating Systems in Rust Step into the world of low-level development with Rust Programming Language for Operating Systems—your complete guide to building secure, blazing-fast, and modern operating systems using Rust, the programming language that’s reshaping the future of system software. Whether you’re a system engineer, an OS enthusiast, or a developer tired of unsafe code in C, this book will teach you how to program Rust at the bare-metal level. Learn the foundations of Rust systems programming through real-world projects that include kernels, device drivers, memory management, and concurrency—optimized for performance and safety. ✅ What You’ll Learn Inside This Book: ⚙️ Design and Build Kernels with Rust Create the core of your OS using Rust language programming, with detailed steps on kernel architecture, initialization, and execution. 🖥️ Memory Management and Paging Understand how to manage memory at a low level using Rust code language, including heap allocation and custom allocators. 🧩 Device Drivers and Hardware Access Learn how to write drivers and interact with hardware safely and efficiently using operator Rust patterns and safe abstractions. 🔁 Concurrency and Multithreading in Rust Dive into Rust functional programming and safe concurrency models, perfect for building modern multitasking operating systems. 🧪 Real-World Rust Programming Examples Explore Rust programming examples and test your own code using virtual machines and tools that simulate real hardware environments. 🔧 RISC-V and Rust Integration Get hands-on with RISC-V Rust development—write a minimal OS for RISC-V platforms using Rust systems programming techniques. 🎯 Who Is This Book For? Developers interested in Rust for Operating Systems and system programming Rust Engineers looking to replace unsafe C code with modern Rust computer language implementations Students and professionals exploring Rust language operating system design Coders learning how to Rust programming for performance-critical applications Anyone completing a Google Rust course or seeking the best way to learn Rust in systems development 🌍 Why Use Rust for Operating System Development? Rust programming combines the power of C with the safety of modern high-level languages. It eliminates entire categories of memory-related bugs—like null pointer dereferencing and buffer overflows—at compile time. That makes Rust the programming language of choice for building secure and efficient operating systems. Whether you're working on embedded devices, RISC-V platforms, or general-purpose operating systems, Rust programming for operating systems offers unmatched control and performance. 📘 Build the Future of Operating Systems with Rust This isn’t just another Rust book—it’s your gateway to building the next generation of operating systems with unmatched performance and reliability. If you're ready to go beyond applications and dive into the core of the machine, this is the book for you. ➡️ Scroll up and get your copy now — Master the Rust programming language and build secure, high-performance operating systems from scratch.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-ro53EQAAQBAJ",
+    "title": "Rust Programming Language for Blockchains",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Rust Programming Language for Blockchains Build Secure, Scalable, and High-Performance Distributed Systems with Rust + Blockchain Step into the future of decentralized technology with Rust Programming Language for Blockchains, your ultimate guide to mastering blockchain development using Rust—the powerful systems programming language renowned for safety, speed, and reliability. This book offers a detailed, step-by-step approach to building your own blockchain and writing smart contracts Rust style, leveraging Rust’s unique advantages for secure, efficient blockchain applications. Whether you’re diving into Rust blockchain developer tools or exploring blockchain Rust source code, this guide equips you with everything you need to succeed. 🔑 What You’ll Discover: 🚀 Building Blockchains with Rust Lang Learn the fundamentals of blockchain architecture and how to implement distributed ledgers using programming language in Rust. 🔐 Writing Secure Smart Contracts Using Rust Master how to develop smart contract using Rust for decentralized applications, ensuring safety and performance. 📚 Exploring Rust Blockchain Projects & Source Code Get hands-on experience with GitHub Rust blockchain tutorial examples and real-world projects to accelerate your learning. ⚙️ Rust System Programming Language for Blockchain Understand how Rust’s memory safety and concurrency features power scalable and secure blockchain solutions. 🛠️ Configure and Use Rust Toolchains Step through essential setup like rust configurar, managing toolchains, and troubleshooting common issues such as rust no active toolchain. 🧩 Implement Clean Architecture in Rust Build maintainable, modular blockchain applications following best practices like clean architecture Rust. 🎯 Who Is This Book For? Aspiring Rust blockchain developers eager to master Rust + blockchain technology. Engineers interested in blockchain Rust projects and secure smart contract development. Programmers wanting to explore blockchain with Rust and systems programming with Rust. Anyone searching for practical Rust programming language blockchain examples and tutorials. 🌟 Why Choose Rust for Blockchain Development? Rust stands out as a top-tier programming language written in Rust that combines the performance of C++ with unbeatable safety guarantees. For blockchain, where security and scalability are paramount, Rust for blockchain development is the perfect fit. Supported by a growing ecosystem, from Rust lang blockchain frameworks to extensive Rust blockchain developer resources, Rust empowers you to build future-ready decentralized systems. 📘 Start Building Secure Blockchains with Rust Today Don’t just watch the blockchain revolution—build it. Order your copy of Rust Programming Language for Blockchains now and unlock the power of Rust + blockchain to create secure, scalable, and high-performance distributed systems.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-7I13EQAAQBAJ",
+    "title": "Rust Programming Language for Web Development",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Web Development with Rust: Building High-Performance Web Applications and APIs Discover the power of web development using Rust with this comprehensive guide designed to take you from beginner to pro in Rust web development. Whether you're wondering can you do web development with Rust or if Rust is good for web development, this book provides clear answers and hands-on tutorials to help you build fast, secure, and scalable web apps. Explore popular Rust web development frameworks like Rocket and Actix—the most trusted web frameworks for Rust—to create blazing-fast REST APIs and web servers. This book covers everything from authentication and database integration to scalability, providing practical Rust web development examples that bring concepts to life. 🔑 What You’ll Learn: Master Rust Web Frameworks: Dive into Rust web development with Rocket and other frameworks, mastering the tools to build reliable, production-ready web services. Hands-On Projects: Follow guided tutorials and real-world Rust web development examples that illustrate programming in Rust for the web. Secure Authentication: Implement robust security practices to protect your web applications. Database Integration: Connect your Rust web apps to databases seamlessly using popular ORMs. Scalability & Performance: Build scalable web backends that can handle growth without compromising speed. Learn Rust Language Fundamentals: Perfect for those eager to learn Rust programming language with a focus on web development. 🎯 Who Is This Book For? Developers looking to get started with Rust for web dev and build modern web applications. Programmers seeking practical knowledge on Rust web development frameworks and Rust programming web framework options. Anyone asking, can Rust be used for web development? and wanting a detailed, step-by-step approach. Students and professionals aiming to learn Rust functional programming in a web context. Coders interested in Rust lang web server development and mastering coding in Rust for the web. 🌟 Why Rust for Web Development? Rust the programming language stands out with its unmatched safety and speed, making it a top choice for web development with Rust. Thanks to its robust ecosystem and frameworks like Rocket, Rust is quickly becoming a leading language for building fast, reliable web applications and APIs. If you’ve been searching for a Rust web development book or want to know if Rust is used for web development, this is the definitive guide to start your journey. 📘 Ready to Build Fast, Secure Web Apps with Rust? Get your copy of Web Development with Rust today and start mastering the art of building high-performance, scalable, and secure web applications with one of the most loved programming languages of the decade!",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-3I53EQAAQBAJ",
+    "title": "Rust programming Language for Artificial Intelligence",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "Rust for Machine Learning: The High-Performance Guide to Safe and Scalable AI Development 🔥 Unlock the Future of AI with the Speed and Safety of Rust Are you searching for the ultimate tool to build secure, fast, and scalable artificial intelligence? Rust for Machine Learning is the definitive guide that combines the raw performance of Rust with the power of machine learning—designed for developers ready to break free from memory issues and sluggish runtimes. Whether you're new to Rust or an experienced programmer exploring Rust for data science and machine learning, this book is your essential roadmap. 🧠 Why Choose Rust for Machine Learning? Forget the myths—Rust isn't just a systems language. It's becoming a rising star in AI and ML thanks to its: ⚡ High speed rivaling C and C++ 🛡️ Memory safety that eliminates common bugs 🧵 Built-in concurrency, perfect for scalable training and data pipelines 🧰 Growing ecosystem of Rust crates for machine learning and AI From neural networks to real-time inferencing, this book shows exactly how and why Rust programming language is ideal for modern machine learning projects. 📘 Inside the Book: Step-by-step Rust machine learning tutorials—from basics to real-world applications Best Rust libraries for machine learning and how to use them effectively How to build your own Rust machine learning framework Tips on using Rust lang web server capabilities for AI deployment Projects and examples sourced from Rust machine learning GitHub repos Analysis of Rust vs Python for machine learning and C++ vs Rust for machine learning Introduction to functional programming in Rust for data flow modeling Hands-on with Rust coding techniques and Google Rust course resources 👨‍💻 Who Should Read This Book? Beginners wanting to learn Rust programming language for AI Python, C, or Golang devs exploring Go or Rust for machine learning AI engineers seeking better memory control and concurrency Anyone curious about machine learning for Rust and how to implement it with ease Those comparing machine learning Rust vs Python and looking for long-term performance gains 💡 If you're ready to embrace unmatched speed, memory safety, and concurrency for AI—this book will be your guide. ✅ Build the future of machine learning, the Rust way. Scroll up and get your copy of Rust for Machine Learning today!",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-vI53EQAAQBAJ",
+    "title": "Rust Programming Language for Cybersecurity",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Rust Programming Language for Cybersecurity Master Rust Security Programming and Build Robust, Secure Systems Dive deep into Rust programming language for cybersecurity with this essential guide designed to empower you in writing bulletproof, secure code using Rust for cybersecurity. Whether you’re a beginner eager to learn Rust programming or an experienced developer wanting to explore cybersecurity with Rust, this book walks you through everything from core principles to advanced security techniques. Harness the power of the Rust language, known for its memory safety and zero-cost abstractions, to prevent vulnerabilities and build resilient software systems. From rust coding best practices to implementing secure, concurrent applications, this guide covers the full spectrum of rust security programming. 🔑 What You’ll Learn: Foundations of Rust Security Programming Understand how Rust programming can be your best tool in preventing common security flaws, thanks to its safe memory model and strict compiler checks. Advanced Cybersecurity Concepts with Rust Explore practical implementations in rust cybersecurity projects, including cryptography, safe threading, and vulnerability mitigation. Rust’s Unique Advantages for Security Learn how rust functional programming and coding in Rust combine to create efficient, maintainable, and secure codebases. Hands-On Secure Coding Examples Follow real-world examples that demonstrate rust security best practices for building secure applications. Learn Rust Language Effectively Perfect for anyone aiming to learn Rust language or improve their skills through targeted exercises and practical projects. 🎯 Who Should Read This Book? Developers looking to master Rust programming language for secure software development. Security professionals interested in rust cybersecurity and writing safe, concurrent code. Programmers searching for the best way to learn Rust with a focus on security. Anyone wanting to leverage the rust computer language to build high-performance, secure systems. 🌟 Why Choose Rust for Cybersecurity? Rust the programming language stands apart with its unique blend of speed, safety, and control—making it ideal for Rust security programming. Unlike traditional languages, Rust’s compile-time guarantees protect against common vulnerabilities like buffer overflows and data races, making security an integral part of the development process. 📘 Secure Your Code with Rust Today Start building safer, faster, and more reliable software by mastering Rust security programming. Order your copy of Rust Programming Language for Cybersecurity now and take your skills to the next level in secure systems development!",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-FI13EQAAQBAJ",
+    "title": "Rust Programming language for Network",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🦀 Rust Programming Language for Network Build Fast, Secure, and Scalable Systems Unlock the power of Rust for network programming and discover why developers worldwide are turning to Rust, the programming language of the future, to build secure, high-performance network systems. Whether you're a beginner or experienced developer, this comprehensive network programming with Rust book is your ultimate guide to building scalable network applications with unmatched safety and speed. From low-level protocols to high-level API development, this book covers it all—through real-world examples and modern best practices. ✅ Why Choose Rust for Network Programming? If you've been asking \"Is Rust good for network programming?\", the answer is a resounding yes. Rust brings together the low-level control of C with memory safety and concurrency, making it ideal for modern network applications. With the rise of automation, microservices, and cloud-native development, learning Rust for network programming and automation is not just smart—it’s essential. 📘 Inside This Rust Network Programming Book: ⚙️ Hands-On Network Programming with Rust Learn to build fast and reliable network applications with TCP, UDP, sockets, and async runtimes. This is not just theory—this is practical Rust network programming in action. 🔄 Concurrency & Performance with async/await Master asynchronous development with tokio, hyper, and other modern tools—crucial for scalable networking. 🌐 Rust Lang Web Server & API Development Create robust Rust lang web server backends, RESTful APIs, and automation tools using safe and maintainable code. 🔐 Secure, Bug-Free Code with Rust’s Ownership Model Eliminate common vulnerabilities using Rust's built-in guarantees. Perfect for those coding in Rust with a security-first mindset. 🧠 Real-World Projects, Tutorials, and Exercises Learn by doing. Each chapter includes hands-on examples and a guided Rust network programming tutorial to solidify your understanding. 🎯 Who This Book Is For: Developers interested in network programming with Rust or transitioning from C, Python, or Golang to programming in Rust Engineers working in systems, automation, or backend infrastructure Students and professionals looking for the best way to learn Rust through applied networking projects Anyone following a Google Rust course or seeking a practical, project-based Rust network programming book Programmers exploring the future of Rust for network programming and automation 🌍 Why Rust? Why Now? Developed by Graydon Hoare, Rust the programming language is supported by major players like Google, Microsoft, and AWS. It’s known for being the most loved programming language, combining speed, safety, and concurrency in one powerful package. Whether you're building IoT devices, scalable backend systems, or automated infrastructure, Rust for network programming provides the tools and reliability you need. 📗 Start Coding Rust for Network Today If you're serious about building secure, high-speed network systems and want to master the tools that leading tech companies use every day, this is the book for you. Don’t just learn theory—learn Rust by building real, working network applications. ➡️ Scroll up and grab your copy now — Transform your career with Rust for network programming and automation today!",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-To13EQAAQBAJ",
+    "title": "Rust Programming Language for Web Assembly",
+    "authors": [
+      "Jeff Stuart"
+    ],
+    "description": "🚀 Rust Programming Language for WebAssembly: Build Blazing-Fast, Next-Gen Web Applications Unlock the future of web development with Rust for WebAssembly—the powerful duo that is revolutionizing how web applications are built. Whether you're comparing Go vs Rust for WebAssembly or diving into programming WebAssembly with Rust, this book is your ultimate guide to mastering the Rust programming language for the web. Designed for developers eager to learn Rust programming language and harness the speed and safety of Rust in the browser, this guide covers everything from the basics of Rust web programming to advanced techniques in Rust functional programming and seamless integration with JavaScript. 🔑 What You’ll Discover: Step-by-step Rust WebAssembly tutorial guiding you through setting up your environment, compiling Rust code to WebAssembly, and deploying blazing-fast Rust webassembly apps. How to build assembly web servers and leverage Rust lang web server frameworks to develop scalable and secure web backends. Practical Rust webassembly examples showing you how to use Rust plugins for WebAssembly and create interactive web experiences. Deep dive into Rust for the web and how to combine Rust + WebAssembly for powerful web applications. Tips on using Rust for web development, including interfacing with JavaScript and optimizing your Rust code language for maximum browser performance. Insight into the best way to learn Rust, including references to popular resources like the Google Rust course. 🎯 Who Should Read This Book? Developers looking to master Rust for web development and build next-gen applications. Programmers interested in Rust for web backend development and secure, high-performance systems. Coders wanting practical knowledge on programming WebAssembly with Rust, including downloadable resources like programming WebAssembly with Rust PDF. Anyone curious about Rust Golang comparisons and why Rust is fast becoming the preferred Rust computer language for modern web development. 🌟 Why Rust + WebAssembly? Rust offers unmatched safety and speed, making it ideal for webassembly programming. Combining the two lets you deliver Rust webassembly apps that run at near-native speeds, while keeping your code secure and maintainable. With powerful web frameworks for Rust and robust tooling, Rust + Web is transforming how web applications are built—whether you’re developing client-side apps or high-performance servers. 🚀 Ready to Build the Web of Tomorrow? Grab your copy of Rust Programming Language for WebAssembly now and start creating blazing-fast, secure, and modern web applications that push the boundaries of performance and user experience.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-SoDZzwEACAAJ",
+    "title": "Rust Mini Reference",
+    "authors": [
+      "Harry Yoon"
+    ],
+    "description": "Learn the Essential Rust Language Grammar in a Weekend! This book is a mini language reference on the Rust programming language. We go through all essential features of Rust 2021 Edition (and some newer language features) in this book. Rust is one of the most powerful languages, originally created for low-level systems programming. Rust is now widely used in other areas as well, such as Web application and Web Assembly development. Rust is, in fact, one of the most popular/loved languages among developers. (And yet, it is one of the most difficult programming languages to learn.) This book is specifically written for Experienced programmers who are relatively new to Rust and want to get a broad and high-level picture of the Rust language, or Beginning Rust programmers who have some real hands-on experience with Rust and want to learn various fundamental concepts in Rust programming. That is, if you have some prior experience with Rust or other similar languages like C++ or Haskell, etc., then this book is for you. This book is, however, ultimately a \"language reference\", and it is not intended for complete beginners. The book covers Rust crates. Rust program items. Names and variables. Copy vs move. Ownership and borrowing. Blocks, scopes, lifetimes. Types, traits, generics. Special types, special traits. Expressions. Statements. Pattern matching. Error handling. Common macros. Builtin attributes. Order your copy today and learn Rust the right way!",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-p-qKDwAAQBAJ",
+    "title": "Rust Programming Language Tutorial",
+    "authors": [
+      "Apriorit Inc.",
+      "Alexey Lozovsky"
+    ],
+    "description": "This is an extensive and beginner-friendly Rust tutorial prepared by our system programming team here at Apriorit. Whether you're a Rust aficionado or only starting your Rust journey, this e-book undoubtedly will prove useful to you. Key Highlights ⦁ Discover the main features of the Rust language ⦁ Learn to develop safer and faster software using Rust ⦁ Learn to establish efficient C bindings ⦁ Get detailed explanations of differences between Rust and C++ Book Description Rust is a c-like systems programming language that provides many advantages over its predecessors. This is why this low-level language has already become so popular in the development community. This book covers the main features of Rust, like zero-cost abstractions, move semantics, trait-based generics, pattern matching, type inference, and minimal runtime. It also explains how the Rust programming language can ensure memory safety and avoid data races in threads. In addition, Rust provides a great opportunity to use wide range of libraries and bind with other languages. The author added a detailed chart comparing feature set of Rust to C++, so you can better understand all the advantages and disadvantages of Rust. This tutorial will be useful for developers who only starts learning Rust, as well as for those who want to improve their knowledge on Rust features. What you will learn ⦁ Discover Rust features that make programming faster and secure ⦁ Guarantee memory safety using Rust ⦁ Benefit from zero-cost abstraction mechanisms ⦁ Avoid data races and a garbage collector ⦁ Get rid of use-after-free, double-free bugs, dangling pointers ⦁ Reduce code duplication ⦁ Use existing libraries written in C and other languages ⦁ Understand the main difference between Rust and C++ About the Author Alexey Lozovsky is a Software Designer at Apriorit.Inc. Apriorit Inc. is a software development service provider headquartered in the Dover, DE, US, with several development centers in Eastern Europe. With over 350 professionals, it brings high-quality services on software consulting, research, and development to software vendors and IT companies worldwide. Apriorit’s main specialties are cybersecurity and data management projects, where system programming, driver and kernel level development, research and reversing matter. The company has an independent web platform development department focusing on building cloud platforms for business. Table of Contents Introduction Summary of Features Rust Language Features Zero-Cost Abstractions Move Semantics Guaranteed Memory Safety Ownership Borrowing Mutability and Aliasing Option Types instead of Null Pointers No Uninitialized Variables Threads without Data Races Passing Messages with Channels Safe State Sharing with Locks Trait-Based Generics Traits Define Type Interfaces Traits Implement Polymorphism Traits May be Implemented Automatically Pattern Matching Type Inference Minimal Runtime Efficient C Bindings Calling C from Rust The Libc Crate and Unsafe Blocks Beyond Primitive Types Calling Rust from C Rust vs. C++ Comparison",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-qFkzEAAAQBAJ",
+    "title": "Programming Rust",
+    "authors": [
+      "Jim Blandy",
+      "Jason Orendorff",
+      "Leonora F. S. Tindall"
+    ],
+    "description": "Systems programming provides the foundation for the world's computation. Writing performance-sensitive code requires a programming language that puts programmers in control of how memory, processor time, and other system resources are used. The Rust systems programming language combines that control with a modern type system that catches broad classes of common mistakes, from memory management errors to data races between threads. With this practical guide, experienced systems programmers will learn how to successfully bridge the gap between performance and safety using Rust. Jim Blandy, Jason Orendorff, and Leonora Tindall demonstrate how Rust's features put programmers in control over memory consumption and processor use by combining predictable performance with memory safety and trustworthy concurrency. You'll learn: Rust's fundamental data types and the core concepts of ownership and borrowing How to write flexible, efficient code with traits and generics How to write fast, multithreaded code without data races Rust's key power tools: closures, iterators, and asynchronous programming Collections, strings and text, input and output, macros, unsafe code, and foreign function interfaces This revised, updated edition covers the Rust 2021 Edition.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-gv5UzwEACAAJ",
+    "title": "Mastering Rust",
+    "authors": [
+      "Sufyan Bin Uzayr"
+    ],
+    "description": "Mastering Rust helps the reader master the powerful Rust programming language for creating stable and versatile applications and projects. Rust is a dependable and robust programming language that was created with today's needs in mind, which is something that several other scripting languages lack. Rust was developed to provide high functions comparable to those of C and C++, and with a focus on code integrity, which is, arguably, lacking in languages such as C. Rust is a dynamically typed language that emphasizes performance and reliability, particularly in parallelism and storage organization. Rust allows you to store data on the tower or the shedload, and it recognizes the importance of performance optimization. It permits even more effective memory usage as well as faster memory management than most other programming languages in its league. Make no mistake about it - Rust is a programming language with a strong learning curve, and is considered complicated by even the most experienced of developers. The rewards for learning Rust are aplenty, but the learning process itself requires a good deal of determination and hard work. Nonetheless, Rust aims to provide a secure, concurrent, and practical systems language in ways that other programming languages do not, and this is primarily why Rust is often the preferred choice for building complex and highly stable apps. Rust boasts of advantages over many other programming languages in terms of expressiveness, speed, sound design, and memory storage. Though the language is new and constantly changing with time, there is an excellent opportunity in this field for future employment. That said, to learn the reliable language that is Rust, you need to have an equally reliable companion guide in your hands, and this is where Mastering Rust comes in. With Mastering Rust, learning Rust programming language becomes a charm, and will undoubtedly help readers advance their careers. The Mastering Computer Science series is edited by Sufyan bin Uzayr, a writer and educator with more than a decade of experience in the computing field.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book--OXCzQEACAAJ",
+    "title": "Rust",
+    "authors": [
+      "John Bach"
+    ],
+    "description": "After reading this book, you'll be ready to build Rust applications. Why learn a new Programming Language?As Einstein might have said, \"As gentle as possible, but no gentler.\". There is a lot of new stuff to learn here, and it's different enough to require some rearrangement of your mental furniture. By 'gentle' I mean that the features are presented practically with examples; as we encounter difficulties, I hope to show how Rust solves these problems. It is important to understand the problems before the solutions make sense. To put it in flowery language, we are going for a hike in hilly country and I will point out some interesting rock formations on the way, with only a few geology lectures. There will be some uphill but the view will be inspiring; the community is unusually pleasant and happy to help. There is the Rust Users Forum and an active subreddit which is unusually well-moderated. The FAQ is a good resource if you have specific questions.First, why learn a new programming language? It is an investment of time and energy and that needs some justification. Even if you do not immediately land a cool job using that language, it stretches the mental muscles and makes you a better programmer. That seems a poor kind of return-on-investment but if you're not learning something genuinely new all the time then you will stagnate and be like the person who has ten years of experience in doing the same thing over and over.Where Rust ShinesRust is a statically and strongly typed systems programming language. statically means that all types are known at compile-time, strongly means that these types are designed to make it harder to write incorrect programs. A successful compilation means you have a much better guarantee of correctness than with a cowboy language like C. systems means generating the best possible machine code with full control of memory use. So the uses are pretty hardcore: operating systems, device drivers and embedded systems that might not even have an operating system. However, it's actually a very pleasant language to write normal application code in as well.The big difference from C and C is that Rust is safe by defau",
+    "categories": [],
+    "rating": 0
+  },
+  {
+    "id": "book-cmiHEQAAQBAJ",
+    "title": "RESTful API Design Patterns and Best Practices",
+    "authors": [
+      "Andrzej Jarzyna",
+      "Samir Amzani"
+    ],
+    "description": "Learn how to build robust, future-proof APIs by applying the latest industry best practices, avoiding common pitfalls, and understanding anti-patterns Key Features Design APIs with your audience in mind to improve usability, lifecycle management, and communication Learn how to create a client-centric REST API design leveraging OpenAPI and JSON Schema Explore API versioning strategies, and gain hands-on experience with API testing and implementation Purchase of the print or Kindle book includes a free PDF eBook Book Description Designing scalable, user-focused, and robust APIs that are built to last isn't just a technical challenge but a design imperative. Written by API leaders with over 30 years of combined experience advancing API strategy, governance, and community, this book is your comprehensive guide to API design, focusing on domain-driven, consumer-centric APIs that meet real-world user needs while remaining flexible and maintainable over time. It covers modern REST API design, the use of tools like OpenAPI and JSON Schema, and the importance of a product-based approach. The chapters help you explore best practices, potential pitfalls, and anti-patterns, extending beyond the design phase. Starting with the \"why\" behind building an API, its intended users, and value, this book walks you through the API lifecycle, the role of contracts, and the application of domain-driven design. You'll develop a solid foundation in REST API design as you discover different styles, design constraints, and more. Beyond design, the book covers testing techniques, API evolution, maintenance, and deprecation. By the end of the book, you'll not only know how to design great APIs but will understand how to treat them as products, manage their full lifecycle, and deliver real value by ensuring your APIs stay relevant and reliable long after their initial release. What you will learn Assess your client's needs to design APIs that communicate the value of your product Understand the role of API lifecycle and the importance of contracts Apply domain-driven design principles in API architecture Embrace a modern approach to REST API design Use the OpenAPI Specification and JSON Schema for standardized APIs Evolve, maintain, and deprecate your APIs without disrupting your users Who this book is for This book is for professionals involved in the digital product lifecycle who want to deepen their understanding of API design and build future-proof APIs with a product-centric approach. API developers, solution architects and engineers, technical product owners, and software architects looking to extend their skills in creating efficient, scalable, and maintainable APIs will find this book particularly useful. Basic knowledge of APIs and the HTTP protocol is recommended to fully benefit from the design principles and practices covered.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-DYC3DwAAQBAJ",
+    "title": "RESTful API Design",
+    "authors": [
+      "Matthias Biehl"
+    ],
+    "description": "Looking for Best Practices for RESTful APIs? This book is for you! Why? Because this book is packed with practical experience on what works best for RESTful API Design. You want to design APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML, OpenAPI, and Swagger. Your company cares about its customers? Learn API product management with a customer-centric design and development approach for APIs. Learn how to manage APIs as a product and how to follow an API-first approach. Build APIs your customers love! You want to manage the complete API lifecycle? An API development methodology is proposed to guide you through the lifecycle: API inception, API design, API development, API publication, API evolution, and maintenance. You want to build APIs right? This book shows best practices for REST design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes, and HTTP methods. Your APIs connect to legacy systems? The book shows best practices for connecting APIs to existing backend systems. Your APIs connect to a mesh of microservices? The book shows the principles for designing APIs for scalable, autonomous microservices. You expect lots of traffic on your API? The book shows you how to achieve high performance, availability and maintainability. You want to build APIs that last for decades? We study API versioning, API evolution, backward- and forward-compatibility and show API design patterns for versioning. The API-University Series is a modular series of books on API-related topics. Each book focuses on a particular API topic, so you can select the topics within APIs, which are relevant for you.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-dGSGDwAAQBAJ",
+    "title": "Hands-On RESTful API Design Patterns and Best Practices",
+    "authors": [
+      "Harihara Subramanian J",
+      "Anupama Murali",
+      "Pethuru Raj"
+    ],
+    "description": "Build effective RESTful APIs for enterprise with design patterns and REST framework's out-of-the-box capabilities Key Features Understand advanced topics such as API gateways, API securities, and cloud Implement patterns programmatically with easy-to-follow examples Modernize legacy codebase using API connectors, layers, and microservices Book DescriptionThis book deals with the Representational State Transfer (REST) paradigm, which is an architectural style that allows networked devices to communicate with each other over the internet. With the help of this book, you’ll explore the concepts of service-oriented architecture (SOA), event-driven architecture (EDA), and resource-oriented architecture (ROA). This book covers why there is an insistence for high-quality APIs toward enterprise integration. It also covers how to optimize and explore endpoints for microservices with API gateways and touches upon integrated platforms and Hubs for RESTful APIs. You’ll also understand how application delivery and deployments can be simplified and streamlined in the REST world. The book will help you dig deeper into the distinct contributions of RESTful services for IoT analytics and applications. Besides detailing the API design and development aspects, this book will assist you in designing and developing production-ready, testable, sustainable, and enterprise-grade APIs. By the end of the book, you’ll be empowered with all that you need to create highly flexible APIs for next-generation RESTful services and applications. What you will learn Explore RESTful concepts, including URI, HATEOAS, and Code on Demand Study core patterns like Statelessness, Pagination, and Discoverability Optimize endpoints for linked microservices with API gateways Delve into API authentication, authorization, and API security implementations Work with Service Orchestration to craft composite and process-aware services Expose RESTful protocol-based APIs for cloud computing Who this book is for This book is primarily for web, mobile, and cloud services developers, architects, and consultants who want to build well-designed APIs for creating and sustaining enterprise-class applications. You’ll also benefit from this book if you want to understand the finer details of RESTful APIs and their design techniques along with some tricks and tips.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-sNnPEAAAQBAJ",
+    "title": "Principles of Web API Design",
+    "authors": [
+      "James Higginbotham"
+    ],
+    "description": "The Full-Lifecycle Guide to API Design Principles of Web API Design brings together principles and processes to help you succeed across the entire API design lifecycle. Drawing on extensive in-the-trenches experience, leading consultant James Higginbotham helps you align every stakeholder on specific outcomes, design APIs that deliver value, and scale the design process from small teams to the entire organization. Higginbotham helps you bring an \"outside-in\" perspective to API design to reflect the voices of customers and product teams, map requirements to specific and well-organized APIs, and choose the right API style for writing them. He walks through a real-world example from the ground up, offering guidance for anyone designing new APIs or extending existing APIs. Deliver great APIs by getting your design processes right Gain agreement on specific outcomes from design teams, customers, and other stakeholders Craft job stories, conduct EventStorming, and model capabilities Identify the right APIs, and organize operations into coherent API profiles Choose the best styles for each project: REST, gRPC, GraphQL, or event-based async APIs Refine designs based on feedback from documenters, testers, and customers Decompose APIs into microservices Mature your API program, implementing design and management processes that scale This guide is invaluable for anyone involved in planning or building APIs--architects, developers, team leaders, managers in single and multi-team environments, and any technical or business professional delivering \"API-as-a-product\" offerings. Register your book for convenient access to downloads, updates, and/or corrections as they become available. See inside book for details.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-i8TnEAAAQBAJ",
+    "title": "API Design for C++",
+    "authors": [
+      "Martin Reddy"
+    ],
+    "description": "API Design for C++, Second Edition provides a comprehensive discussion of Application Programming Interface (API) development, from initial design through implementation, testing, documentation, release, versioning, maintenance, and deprecation. It is the only book that teaches the strategies of C++ API development, including interface design, versioning, scripting, and plug-in extensibility. Drawing from the author's experience on large scale, collaborative software projects, the text offers practical techniques of API design that produce robust code for the long-term. It presents patterns and practices that provide real value to individual developers as well as organizations.The Second Edition includes all new material fully updated for the latest versions of C++, including a new chapter on concurrency and multithreading, as well as a new chapter discussing how Objective C++ and C++ code can co-exist and how a C++ API can be accessed from Swift programs. In addition, it explores often overlooked issues, both technical and non-technical, contributing to successful design decisions that produce high quality, robust, and long-lived APIs. It focuses on various API styles and patterns that will allow you to produce elegant and durable libraries. A discussion on testing strategies concentrates on automated API testing techniques rather than attempting to include end-user application testing techniques such as GUI testing, system testing, or manual testing. - Teaches the strategies of C++ API development, including design, versioning, documentation, testing, scripting, and extensibility - Includes extensive code examples that illustrate each concept, with fully functional examples and working source code for experimentation available online - Covers various API styles and patterns, with a focus on practical and efficient designs for large-scale, long-term projects - Includes updated URLs and ensures all code examples continue to work with modern compilers and supporting tools",
+    "categories": [
+      "Mathematics"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-7j64DwAAQBAJ",
+    "title": "GraphQL API Design",
+    "authors": [
+      "Matthias Biehl"
+    ],
+    "description": "Want to build APIs like Facebook? Since Facebook's framework for building APIs, GraphQL, has become publicly available, this ambition seems to be within reach for many companies. And that is great. But first, let's learn what GraphQL really is and - maybe even more importantly - let's figure out how to apply GraphQL to build APIs that consumers love. Do you like to learn hands-on? In this book, we take a hands-on approach to learning GraphQL. We first explore the concepts of the two GraphQL languages using examples. Then we start writing some code for our first GraphQL API. We develop this API step by step, from creating a schema and resolving queries, over mocking data and connecting data sources all the way to developing mutations and setting up event subscriptions. Are your API consumers important to you? This book shows you how to apply a consumer-oriented design process for GraphQL APIs, so you can deliver what your consumers really want: an API that solves their problems and offers a great developer experience. Do you want to enable the API consumers so they can build great apps? This book explains the GraphQL query language, which allows the API consumers to retrieve data, write data and get notified when data changes. More importantly, you let them decide, which data they really need from the API. Do you want to make your API easy and intuitive to use? This book shows you how to use the GraphQL schema language to define a type system for your API, which serves as a reference documentation and helps your API consumers write queries that are syntactically correct. Do you want to profit from what has worked for others? This book provides a collection of best practices for GraphQL that have worked for other companies, e.g. regarding pagination, authentication and caching. REST vs. GraphQL: Which one is better? GraphQL and REST are competing philosophies for building APIs. It is not in the scope of this book to compare or discuss the two approaches. The focus of this book is on a hands-on approach for learning GraphQL.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-1LdQAAAAMAAJ",
+    "title": "Professional Java User Interfaces",
+    "authors": [
+      "Mauro Marinilli"
+    ],
+    "description": "Professional Java User Interfaces begins where all other Java Graphical User Interface books end. It goes beyond the traditional discussion of code and covers aspects of professional Java GUI development that other books tend to miss out. It takes advantage of Swing and SWT libraries, but it is not limited to them; it explores GUIs for all Java environments, going beyond standard component-based GUIs. Mauro Marinilli describes how to set out and develop GUIs, ranging from the most simple to the most complex, with industry quality, reusable utility classes, sound software designs, source code and professional advice. Save time and effort by following the recommendations outlined in this book when undertaking professional GUI design and development. From practical tips to design patterns-aware software development and scalable architectures, this essential read is a culmination of many years of real-world experience. The author reveals: * The best way to code a complex UI in Java, with plenty of code examples. * How GUI design and usability techniques can be used effectively with Java. * Industry best practice for building professional GUIs for projects of any size. * How to design effective GUIs for Java programs running on devices other than PCs. * How to chose the best software model for a project; options range from XP to Rational Unified Process, including Test-Driven Development, Cost-Driven design and others. * Practical tips for every aspect of project management to increase team organization. * Essential techniques to add professional features to your GUIs: to include undo - redo, memory management and lazy initialization, asynchronous actions and more. * Extensive coverage of the latest Java UI technologies and libraries.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-kQtTAAAAMAAJ",
+    "title": "Essential JTAPI: Java Telephony API",
+    "authors": [
+      "Spencer Roberts"
+    ],
+    "description": "PLEASE PROVIDE COURSE INFORMATION PLEASE PROVIDE",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-ZjszEAAAQBAJ",
+    "title": "The Design of Web APIs",
+    "authors": [
+      "Arnaud Lauret"
+    ],
+    "description": "Summary The Design of Web APIs is a practical, example-packed guide to crafting extraordinary web APIs. Author Arnaud Lauret demonstrates fantastic design principles and techniques you can apply to both public and private web APIs. About the technology An API frees developers to integrate with an application without knowing its code-level details. Whether you’re using established standards like REST and OpenAPI or more recent approaches like GraphQL or gRPC, mastering API design is a superskill. It will make your web-facing services easier to consume and your clients—internal and external—happier. About the book Drawing on author Arnaud Lauret's many years of API design experience, this book teaches you how to gather requirements, how to balance business and technical goals, and how to adopt a consumer-first mindset. It teaches effective practices using numerous interesting examples. What's inside Characteristics of a well-designed API User-oriented and real-world APIs Secure APIs by design Evolving, documenting, and reviewing API designs About the reader Written for developers with minimal experience building and consuming APIs. About the author A software architect with extensive experience in the banking industry, Arnaud Lauret has spent 10 years using, designing, and building APIs. He blogs under the name of API Handyman and has created the API Stylebook website.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-uaZQAAAAMAAJ",
+    "title": "Advanced PHP Programming",
+    "authors": [
+      "George Schlossnagle"
+    ],
+    "description": "PHP has exploded in popularity, and is now starting to make inroads into large-scale business-critical Web systems. Schlossnagle provides a definitive guide to developing PHP applications for performance, stability and extensibility.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "book-abJQAQAAIAAJ",
+    "title": "IDEAS '98, International Database Engineering and Applications Symposium",
+    "authors": [
+      "Barry Eaglestone",
+      "Bipin C. Desai",
+      "Jianhua Shao"
+    ],
+    "description": "This volume covers topics including: database engineering; data management; distribution and interoperability; OODMS and RDMS; data warehouses and scientific databases; electronic commerce and the web; CSCW and distance learning; spatial data and handwriting; and query optimization.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-d9DyAwAAQBAJ",
+    "title": "Oracle PL/SQL Performance Tuning Tips & Techniques",
+    "authors": [
+      "Michael Rosenblum",
+      "Paul Dorsey"
+    ],
+    "description": "Proven PL/SQL Optimization Solutions In Oracle PL/SQL Performance Tuning Tips & Techniques, Oracle ACE authors with decades of experience building complex production systems for government, industry, and educational organizations present a hands-on approach to enabling optimal results from PL/SQL. The book begins by describing the discovery process required to pinpoint performance problems and then provides measurable and repeatable test cases. In-depth coverage of linking SQL and PL/SQL is followed by deep dives into essential Oracle Database performance tuning tools. Real-world examples and best practices are included throughout this Oracle Press guide. Follow a request-driven nine-step process to identify and address performance problems in web applications Use performance-related database tools, including data dictionary views, logging, tracing, PL/SQL Hierarchical Profiler, PL/Scope, and RUNSTATS Instrument code to pinpoint performance issues using call stack APIs, error stack APIs, and timing markers Embed PL/SQL in SQL and manage user-defined functions Embed SQL in PL/SQL using a set-based approach to handle large volumes of data Properly write and deploy data manipulation language triggers to avoid performance problems Work with advanced datatypes, including LOBs and XML Use caching techniques to avoid redundant operations Effectively use dynamic SQL to reduce the amount of code needed and streamline system management Manage version control and ensure that performance fixes are successfully deployed Code examples in the book are available for download.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-WJsjEQAAQBAJ",
+    "title": "Systems Programming",
+    "authors": [
+      "Peter Johnson"
+    ],
+    "description": "\"Systems Programming: Concepts and Techniques\" offers a comprehensive exploration of the foundational elements that underpin the operation and control of modern computing systems. Designed for beginners and those seeking to solidify their understanding, this book delves deeply into the critical areas of systems programming, from the intricacies of operating systems and memory management to the complex dynamics of concurrency and synchronization. Each chapter is meticulously structured to build upon previous knowledge, guiding the reader through a logical progression of topics essential for mastering system-level programming. This book provides a detailed examination of essential concepts such as process and thread management, interprocess communication, networking, and file systems. Readers will gain valuable insights into optimizing system performance through chapters dedicated to debugging, profiling, and advanced programming techniques. Real-world examples and case studies further enrich the learning experience, ensuring that readers are well-equipped to develop efficient, robust, and scalable system software. With its elegant and matter-of-fact style, \"Systems Programming: Concepts and Techniques\" serves as both an educational resource and a practical reference, empowering readers to navigate the complexities of systems programming with confidence and competence. Whether developing software on personal computers or large-scale servers, this book lays the foundation for understanding the critical components that drive today's digital infrastructure.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-FbJQAAAAMAAJ",
+    "title": "UNIX System Programming",
+    "authors": [
+      "Keith Haviland",
+      "Dina Gray",
+      "Ben Salama"
+    ],
+    "description": "This text concentrates on the programming interface that exists between the UNIX kernel and applications software that runs in the UNIX environment - the UNIX system call interface. The techniques required by systems programmers are developed in depth and illustrated by a wealth of examples.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-Cyv4EQAAQBAJ",
+    "title": "Systems Programming Fundamentals",
+    "authors": [
+      "Zane Huxley"
+    ],
+    "description": "Unlock the power of systems programming without the fear of memory crashes. Systems programming has traditionally been an exclusive domain. For decades, building foundational software meant wrestling with manual memory management, unpredictable crashes, and complex security vulnerabilities in older languages. This guide changes that entirely. Written for developers, students, and hobbyists who want to understand how computers truly work, this book demystifies the Rust programming language. Rust provides the raw speed and low-level control of traditional systems languages while guaranteeing absolute memory safety and fearless concurrency through its innovative compiler. You do not need a computer science degree or years of low-level experience to succeed. Step by step, this comprehensive guide builds your mental model of the machine and translates high-level programming logic into blazing-fast systems code. What you will discover inside: The Hardware Foundation: Understand exactly how processors, memory, the stack, and the heap interact to execute your code efficiently. The Ownership Model: Master the defining feature of Rust. Learn how to manage memory safely without relying on a slow garbage collector or risking catastrophic double-free errors. Fearless Concurrency: Unlock the true power of multi-core processors. Build parallel data pipelines and shared-state architectures that are mathematically guaranteed to be free of data races. Asynchronous Programming: Scale your applications to handle thousands of simultaneous network tasks seamlessly. Production Readiness: Transition from writing simple scripts to deploying enterprise-grade software. Learn how to structure projects, write automated tests, and optimize for peak hardware performance. Stop fighting unpredictable bugs and start building software that is proven to be safe before it ever runs. Whether you are a web developer looking to understand the machine under the hood or a new programmer seeking absolute performance, this book provides the exact foundation you need to become a confident systems programmer.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-nexqDwAAQBAJ",
+    "title": "Systems Programming in Unix/Linux",
+    "authors": [
+      "K.C. Wang"
+    ],
+    "description": "Covering all the essential components of Unix/Linux, including process management, concurrent programming, timer and time service, file systems and network programming, this textbook emphasizes programming practice in the Unix/Linux environment. Systems Programming in Unix/Linux is intended as a textbook for systems programming courses in technically-oriented Computer Science/Engineering curricula that emphasize both theory and programming practice. The book contains many detailed working example programs with complete source code. It is also suitable for self-study by advanced programmers and computer enthusiasts. Systems programming is an indispensable part of Computer Science/Engineering education. After taking an introductory programming course, this book is meant to further knowledge by detailing how dynamic data structures are used in practice, using programming exercises and programming projects on such topics as C structures, pointers, link lists and trees. This book provides a wide range of knowledge about computer systemsoftware and advanced programming skills, allowing readers to interface with operatingsystem kernel, make efficient use of system resources and develop application software.It also prepares readers with the needed background to pursue advanced studies inComputer Science/Engineering, such as operating systems, embedded systems, databasesystems, data mining, artificial intelligence, computer networks, network security,distributed and parallel computing.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-yspYEQAAQBAJ",
+    "title": "Modern Systems Programming with Scala Native",
+    "authors": [
+      "Richard Whaling"
+    ],
+    "description": "Access the power of bare-metal systems programming with Scala Native, an ahead-of-time Scala compiler. Without the baggage of legacy frameworks and virtual machines, Scala Native lets you re-imagine how your programs interact with your operating system. Compile Scala code down to native machine instructions; seamlessly invoke operating system APIs for low-level networking and IO; control pointers, arrays, and other memory management techniques for extreme performance; and enjoy instant start-up times. Skip the JVM and improve your code performance by getting close to the metal. Developers generally build systems on top of the work of those who came before, accumulating layer upon layer of abstraction. Scala Native provides a rare opportunity to remove layers. Without the JVM, Scala Native uses POSIX and ANSI C APIs to build concise, expressive programs that run unusually close to bare metal. Scala Native compiles Scala code down to native machine instructions instead of JVM bytecode. It starts up fast, without the sluggish warm-up phase that's common for just-in-time compilers. Scala Native programs can seamlessly invoke operating system APIs for low-level networking and IO. And Scala Native lets you control pointers, arrays, and other memory layout types for extreme performance. Write practical, bare-metal code with Scala Native, step by step. Understand the foundations of systems programming, including pointers, arrays, strings, and memory management. Use the UNIX socket API to write network client and server programs without the sort of frameworks higher-level languages rely on. Put all the pieces together to design and implement a modern, asynchronous microservice-style HTTP framework from scratch. Take advantage of Scala Native's clean, modern syntax to write lean, high-performance code without the JVM. What You Need: A modern Windows, Mac OS, or Linux system capable of running Docker. All code examples in the book are designed to run on a portable Docker-based build environment that runs anywhere. If you don't have Docker yet, see the Appendix for instructions on how to get it.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-k_ocKY0iegsC",
+    "title": "Linux System Programming",
+    "authors": [
+      "Robert Love"
+    ],
+    "description": "This book is about writing software that makes the most effective use of the system you're running on -- code that interfaces directly with the kernel and core system libraries, including the shell, text editor, compiler, debugger, core utilities, and system daemons. The majority of both Unix and Linux code is still written at the system level, and Linux System Programming focuses on everything above the kernel, where applications such as Apache, bash, cp, vim, Emacs, gcc, gdb, glibc, ls, mv, and X exist. Written primarily for engineers looking to program (better) at the low level, this book is an ideal teaching tool for any programmer. Even with the trend toward high-level development, either through web software (such as PHP) or managed code (C#), someone still has to write the PHP interpreter and the C# virtual machine. Linux System Programming gives you an understanding of core internals that makes for better code, no matter where it appears in the stack. Debugging high-level code often requires you to understand the system calls and kernel behavior of your operating system, too. Key topics include: An overview of Linux, the kernel, the C library, and the C compiler Reading from and writing to files, along with other basic file I/O operations, including how the Linux kernel implements and manages file I/O Buffer size management, including the Standard I/O library Advanced I/O interfaces, memory mappings, and optimization techniques The family of system calls for basic process management Advanced process management, including real-time processes File and directories-creating, moving, copying, deleting, and managing them Memory management -- interfaces for allocating memory, managing the memory youhave, and optimizing your memory access Signals and their role on a Unix system, plus basic and advanced signal interfaces Time, sleeping, and clock management, starting with the basics and continuing through POSIX clocks and high resolution timers With Linux System Programming, you will be able to take an in-depth look at Linux from both a theoretical and an applied perspective as you cover a wide range of programming topics.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "book-K1vXEb1SgawC",
+    "title": "Linux System Programming",
+    "authors": [
+      "Robert M. Love"
+    ],
+    "description": "UNIX, UNIX LINUX & UNIX TCL/TK. Write software that makes the most effective use of the Linux system, including the kernel and core system libraries. The majority of both Unix and Linux code is still written at the system level, and this book helps you focus on everything above the kernel, where applications such as Apache, bash, cp, vim, Emacs, gcc, gdb, glibc, ls, mv, and X exist. Written primarily for engineers looking to program at the low level, this updated edition of Linux System Programming gives you an understanding of core internals that makes for better code, no matter where it appears in the stack. -- Provided by publisher.",
+    "categories": [
+      "Linux"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-fCRNAQAAIAAJ",
+    "title": "Systems Programming for Small Computers",
+    "authors": [
+      "Daniel H. Marcellus"
+    ],
+    "description": "Shows How to Write Programs & Explains Complicated Control Software & Multi-Tasking Operating Systems",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-3Tla6d153uwC",
+    "title": "Encyclopedia of Computer Science and Technology",
+    "authors": [
+      "Harry Henderson"
+    ],
+    "description": "Presents an illustrated A-Z encyclopedia containing approximately 600 entries on computer and technology related topics.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 5
+  },
+  {
+    "id": "book-aSTF0QEACAAJ",
+    "title": "Systems Programming with Rust",
+    "authors": [
+      "Arden Virex"
+    ],
+    "description": "Systems Programming with Rust: Creating High-Performance, Safe, and Concurrent Software is a comprehensive, hands-on guide for developers who want to build reliable, efficient, and modern system-level applications using Rust. This book takes you from the core principles of systems programming to advanced Rust techniques used in real-world software. You will learn how Rust's ownership model, memory safety guarantees, and fearless concurrency enable you to write high-performance programs without sacrificing security or stability. Every concept is explained clearly and reinforced with practical examples that reflect how systems software is built today. Inside this book, you will explore: Fundamentals of systems programming and how Rust fits into low-level development Rust's ownership, borrowing, and lifetime model for memory-safe code Writing fast and efficient programs with zero-cost abstractions Safe concurrency using threads, async programming, and message passing Error handling and reliability in system-level applications Interfacing with operating systems, hardware, and low-level APIs Designing scalable, maintainable, and secure systems software Whether you are a C or C++ developer transitioning to Rust, a software engineer seeking safer system-level tools, or a student learning systems programming from a modern perspective, this book provides the knowledge and practical skills you need to succeed. By the end of this book, you will be confident in using Rust to build fast, safe, and concurrent software for operating systems, networking, embedded systems, and performance-critical applications. If you are ready to master systems programming with a language designed for safety and speed, this book is your complete guide.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-YL1QAAAAMAAJ",
+    "title": "CICS Application and System Programming",
+    "authors": [
+      "Barry K. Nirmal"
+    ],
+    "description": "This book gives you tools--BMS maps, programs, JCL, etc.--you can easily copy to your own data sets, compile or assemble, and execute with little or no change. And it teaches you how to develop similar tools yourself. These utilities solve practical problems commonly faced by application and system programmers and analysts in MVS and DOS/VSE environments.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book--II73rBDXCYC",
+    "title": "Software Architecture in Practice",
+    "authors": [
+      "Len Bass",
+      "Paul Clements",
+      "Rick Kazman"
+    ],
+    "description": "The award-winning and highly influential Software Architecture in Practice, Third Edition, has been substantially revised to reflect the latest developments in the field. In a real-world setting, the book once again introduces the concepts and best practices of software architecture—how a software system is structured and how that system’s elements are meant to interact. Distinct from the details of implementation, algorithm, and data representation, an architecture holds the key to achieving system quality, is a reusable asset that can be applied to subsequent systems, and is crucial to a software organization’s business strategy. The authors have structured this edition around the concept of architecture influence cycles. Each cycle shows how architecture influences, and is influenced by, a particular context in which architecture plays a critical role. Contexts include technical environment, the life cycle of a project, an organization’s business profile, and the architect’s professional practices. The authors also have greatly expanded their treatment of quality attributes, which remain central to their architecture philosophy—with an entire chapter devoted to each attribute—and broadened their treatment of architectural patterns. If you design, develop, or manage large software systems (or plan to do so), you will find this book to be a valuable resource for getting up to speed on the state of the art. Totally new material covers Contexts of software architecture: technical, project, business, and professional Architecture competence: what this means both for individuals and organizations The origins of business goals and how this affects architecture Architecturally significant requirements, and how to determine them Architecture in the life cycle, including generate-and-test as a design philosophy; architecture conformance during implementation; architecture and testing; and architecture and agile development Architecture and current technologies, such as the cloud, social networks, and end-user devices",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "book-wa7MDwAAQBAJ",
+    "title": "Fundamentals of Software Architecture",
+    "authors": [
+      "Mark Richards",
+      "Neal Ford"
+    ],
+    "description": "Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive overview of software architecture’s many aspects. Aspiring and existing architects alike will examine architectural characteristics, architectural patterns, component determination, diagramming and presenting architecture, evolutionary architecture, and many other topics. Mark Richards and Neal Ford—hands-on practitioners who have taught software architecture classes professionally for years—focus on architecture principles that apply across all technology stacks. You’ll explore software architecture in a modern light, taking into account all the innovations of the past decade. This book examines: Architecture patterns: The technical basis for many architectural decisions Components: Identification, coupling, cohesion, partitioning, and granularity Soft skills: Effective team management, meetings, negotiation, presentations, and more Modernity: Engineering practices and operational approaches that have changed radically in the past few years Architecture as an engineering discipline: Repeatable results, metrics, and concrete valuations that add rigor to software architecture",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-jOMYtrJ6r_0C",
+    "title": "Software Architecture: A Case Based Approach",
+    "authors": [
+      "Vasudeva Varma",
+      "Varma Vasudeva"
+    ],
+    "description": "The book discusses the discipline of Software Architecture using real-world case studies and poses pertinent questions that arouse objective thinking. With the help of case studies and in-depth analyses, it delves into the core issues and challenges of software architecture.",
+    "categories": [
+      "Computer architecture"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "book-OX1EEAAAQBAJ",
+    "title": "Software Architecture: The Hard Parts",
+    "authors": [
+      "Neal Ford",
+      "Mark Richards",
+      "Pramod Sadalage",
+      "Zhamak Dehghani"
+    ],
+    "description": "There are no easy decisions in software architecture. Instead, there are many hard parts--difficult problems or issues with no best practices--that force you to choose among various compromises. With this book, you'll learn how to think critically about the trade-offs involved with distributed architectures. Architecture veterans and practicing consultants Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani discuss strategies for choosing an appropriate architecture. By interweaving a story about a fictional group of technology professionals--the Sysops Squad--they examine everything from how to determine service granularity, manage workflows and orchestration, manage and decouple contracts, and manage distributed transactions to how to optimize operational characteristics, such as scalability, elasticity, and performance. By focusing on commonly asked questions, this book provides techniques to help you discover and weigh the trade-offs as you confront the issues you face as an architect. Analyze trade-offs and effectively document your decisions Make better decisions regarding service granularity Understand the complexities of breaking apart monolithic applications Manage and decouple contracts between services Handle data in a highly distributed architecture Learn patterns to manage workflow and transactions when breaking apart applications",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-Z3ngxo-m3xoC",
+    "title": "Software Architecture",
+    "authors": [
+      "Ivica Crnkovic",
+      "Volker Gruhn",
+      "Matthias Book"
+    ],
+    "description": "This book constitutes the refereed proceedings of the 5th European Conference on Software Architecture, ECSA 2011, held in Essen, Germany, in September 2011. The 13 revised full papers presented together with 24 emerging research papers, and 7 research challenge poster papers were carefully reviewed and selected from over 100 submissions. The papers are organized in topical sections on requirements and software architectures; software architecture, components, and compositions; quality attributes and software architectures; software product line architectures; architectural models, patterns and styles; short papers; process and management of architectural decisions; software architecture run-time aspects; ADLs and metamodels; and services and software architectures.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-gO3aEAAAQBAJ",
+    "title": "Introduction to Software Architecture",
+    "authors": [
+      "Kevin Lano",
+      "Sobhan Yassipour Tehrani"
+    ],
+    "description": "This unique, accessible textbook gives a comprehensive introduction to software architecture, using ‘clean architecture’ concepts with agile methods and model-driven development. The work introduces the key concepts of software architectures and explains the importance of architectural design for the long-term usefulness and sustainability of software systems. In addition, it describes more than 30 architectural styles and patterns that can be used for constructing mobile applications, enterprise and web applications, machine-learning systems, and safety-critical systems. Topics and features: Combines clean-architecture principles with agile model-driven development Employs practical examples and real industrial cases to illustrate architectures for mobile apps, web apps, enterprise systems, safety-critical systems and machine-learning systems Explores support tools for architectural design and system development using the approach Provides tutorial questions and slides to support teaching and learning Delivers material that has been class-tested over 10 years with more than 1,000 students The textbook can be used to support teaching of an undergraduate module in software architecture, yet also includes more advanced topics suitable for a specialised software architecture module at master’s level. It also will be eminently suitable and relevant for software practitioners and researchers needing or wanting to explore the field in short courses or self-study. Dr. Kevin Lano is Reader in Software Engineering, Department of Informatics, King's College London, UK. Dr. Sobhan Yassipour Tehrani is a Lecturer, Department of Computer Science, University College London, UK.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-YGCNnnzeov0C",
+    "title": "A Practical Guide to Enterprise Architecture",
+    "authors": [
+      "James McGovern"
+    ],
+    "description": "bull; Written by expert practitioners who have hands-on experience solving real-world problems for large corporations bull; Helps enterprise architects make sense of data, systems, software, services, product lines, methodologies, and much more bull; Provides explanation of theory and implementation with real-world business examples to support key points",
+    "categories": [
+      "Business & Economics"
+    ],
+    "rating": 5
+  },
+  {
+    "id": "book-krw7CwAAQBAJ",
+    "title": "Incremental Software Architecture",
+    "authors": [
+      "Michael Bell"
+    ],
+    "description": "The best-practices solution guide for rescuing broken software systems Incremental Software Architecture is a solutions manual for companies with underperforming software systems. With complete guidance and plenty of hands-on instruction, this practical guide shows you how to identify and analyze the root cause of software malfunction, then identify and implement the most powerful remedies to save the system. You'll learn how to avoid developing software systems that are destined to fail, and the methods and practices that help you avoid business losses caused by poorly designed software. Designed to answer the most common questions that arise when software systems negatively impact business performance, this guide details architecture and design best practices for enterprise architecture efforts, and helps you foster the reuse and consolidation of software assets. Relying on the wrong software system puts your company at risk of failing. It's a question of when, not if, something goes catastrophically wrong. This guide shows you how to proactively root out and repair the most likely cause of potential issues, and how to rescue a system that has already begun to go bad. Mitigate risks of software development projects Increase ROI and accelerate time-to-market Accurately assess technological achievability and viability Identify actual software construction value propositions Fierce competition and volatile commerce markets drive companies to invest heavily in the construction of software systems, which strains IT and business budgets and puts immense strain on existing network infrastructure. As technology evolves, these ever-more-complex computing landscapes become more and more expensive and difficult to maintain. Incremental Software Architecture shows you how to revamp the architecture to effectively reduce strain, cost, and the chance of failure.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-M3RzjWmMgBwC",
+    "title": "Software Architecture",
+    "authors": [
+      "Oliver Vogel",
+      "Ingo Arnold",
+      "Arif Chughtai",
+      "Timo Kehrer"
+    ],
+    "description": "As a software architect you work in a wide-ranging and dynamic environment. You have to understand the needs of your customer, design architectures that satisfy both functional and non-functional requirements, and lead development teams in implementing the architecture. And it is an environment that is constantly changing: trends such as cloud computing, service orientation, and model-driven procedures open up new architectural possibilities. This book will help you to develop a holistic architectural awareness and knowledge base that extends beyond concrete methods, techniques, and technologies. It will also help you to acquire or expand the technical, methodological, and social competences that you need. The authors place the spotlight on you, the architect, and offer you long-term architectural orientation. They give you numerous guidelines, checklists, and best practices to support you in your practical work. \"Software Architecture\" offers IT students, software developers, and software architects a holistic and consistent orientation across relevant topics. The book also provides valuable information and suggestions for system architects and enterprise architects, since many of the topics presented are also relevant for their work. Furthermore, IT project leads and other IT managers can use the book to acquire an enhanced understanding of architecture. Further information is available at www.software-architecture-book.org.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-3klAPCIB3hQC",
+    "title": "Applied Software Architecture",
+    "authors": [
+      "Christine Hofmeister",
+      "Robert Nord",
+      "Dilip Soni"
+    ],
+    "description": "\"Designing a large software system is an extremely complicated undertaking that requires juggling differing perspectives and differing goals, and evaluating differing options. Applied Software Architecture is the best book yet that gives guidance as to how to sort out and organize the conflicting pressures and produce a successful design.\" -- Len Bass, author of Software Architecture in Practice. Quality software architecture design has always been important, but in today's fast-paced, rapidly changing, and complex development environment, it is essential. A solid, well-thought-out design helps to manage complexity, to resolve trade-offs among conflicting requirements, and, in general, to bring quality software to market in a more timely fashion. Applied Software Architecture provides practical guidelines and techniques for producing quality software designs. It gives an overview of software architecture basics and a detailed guide to architecture design tasks, focusing on four fundamental views of architecture--conceptual, module, execution, and code. Through four real-life case studies, this book reveals the insights and best practices of the most skilled software architects in designing software architecture. These case studies, written with the masters who created them, demonstrate how the book's concepts and techniques are embodied in state-of-the-art architecture design. You will learn how to: create designs flexible enough to incorporate tomorrow's technology; use architecture as the basis for meeting performance, modifiability, reliability, and safety requirements; determine priorities among conflicting requirements and arrive at a successful solution; and use software architecture to help integrate system components. Anyone involved in software architecture will find this book a valuable compendium of best practices and an insightful look at the critical role of architecture in software development. 0201325713B07092001",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "book-pCW2ZWUhKkQC",
+    "title": "A Software Architecture Primer",
+    "authors": [
+      "John Reekie",
+      "Rohan McAdam",
+      "Rohan James McAdam"
+    ],
+    "description": "The authors present a fresh, pragmatic approach to the study of software architecture. This edition contains a series of chapters that introduce and develop an understanding of software architecture by means of careful explanation and elaboration of a range of key concepts. (Computer Books)",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 5
+  },
+  {
+    "id": "book-eJ22zgEACAAJ",
+    "title": "Understanding Software Architecture",
+    "authors": [
+      "Ryan McNeil"
+    ],
+    "description": "The creation of the fundamental structures of a software system is referred to as software architecture. The architecture of a software system functions as a blueprint for the system and the developing project. It details the tasks necessary to be executed during the designing. There are four core activities in software architecture design that are performed iteratively at different stages of the initial software development life cycle. These activities include architectural analysis, architectural synthesis, architectural evaluation and architectural evolution. Some common components of software architecture are software architecture description, architecture description languages, architecture viewpoints, architecture frameworks and software architecture erosion. This book contains some path-breaking studies in the field of software architecture. It traces the progress of this field and highlights some of its key concepts and applications. The extensive content of this textbook provides the readers with a thorough understanding of the subject.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-EIeQhdrW2VMC",
+    "title": "Clinical Engineering Handbook",
+    "authors": [
+      "Joseph F. Dyro"
+    ],
+    "description": "As the biomedical engineering field expands throughout the world, clinical engineers play an ever more important role as the translator between the worlds of the medical, engineering, and business professionals. They influence procedure and policy at research facilities, universities and private and government agencies including the Food and Drug Administration and the World Health Organization. Clinical engineers were key players in calming the hysteria over electrical safety in the 1970s and Y2K at the turn of the century and continue to work for medical safety. This title brings together all the important aspects of Clinical Engineering. It provides the reader with prospects for the future of clinical engineering as well as guidelines and standards for best practice around the world.",
+    "categories": [
+      "Medical"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "book-kxzoBwAAQBAJ",
+    "title": "Software Architectures",
+    "authors": [
+      "Leonor Barroca",
+      "Jon Hall",
+      "Patrick Hall"
+    ],
+    "description": "This book provides a unique overview of different approaches to developing software that is flexible, adaptable and easy to maintain and reuse. It covers the most recent advances in software architecture research. In addition, it provides the reader with scalable solutions for engineering and reengineering business processes, including architectural components for business applications, framework design for Internet distributed business applications, and architectural standards for enterprise systems.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-34N1KR206M4C",
+    "title": "Information Computing and Applications",
+    "authors": [
+      "Rongbo Zhu",
+      "Yanchun Zhang",
+      "Baoxiang Liu",
+      "Chunfeng Liu"
+    ],
+    "description": "This book constitutes the refereed proceedings of the First International Conference on Information Computing and Applications, ICICA 2010, held in Tangshan, China, in October 2010. The 76 papers are organized in topical sections on parallel and distributed computing; trusted and pervasive computing; internet and web computing; multimedia networking and computing; evolutionary computing and applications; scientific and engineering computing; and intelligent computing and applications.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-UTZbsrA4qAsC",
+    "title": "Documenting Software Architectures",
+    "authors": [
+      "Paul Clements",
+      "Felix Bachmann",
+      "Len Bass",
+      "David Garlan",
+      "James Ivers",
+      "Reed Little",
+      "Paulo Merson",
+      "Robert Nord",
+      "Judith Stafford"
+    ],
+    "description": "Software architecture—the conceptual glue that holds every phase of a project together for its many stakeholders—is widely recognized as a critical element in modern software development. Practitioners have increasingly discovered that close attention to a software system’s architecture pays valuable dividends. Without an architecture that is appropriate for the problem being solved, a project will stumble along or, most likely, fail. Even with a superb architecture, if that architecture is not well understood or well communicated the project is unlikely to succeed. Documenting Software Architectures, Second Edition, provides the most complete and current guidance, independent of language or notation, on how to capture an architecture in a commonly understandable form. Drawing on their extensive experience, the authors first help you decide what information to document, and then, with guidelines and examples (in various notations, including UML), show you how to express an architecture so that others can successfully build, use, and maintain a system from it. The book features rules for sound documentation, the goals and strategies of documentation, architectural views and styles, documentation for software interfaces and software behavior, and templates for capturing and organizing information to generate a coherent package. New and improved in this second edition: Coverage of architectural styles such as service-oriented architectures, multi-tier architectures, and data models Guidance for documentation in an Agile development environment Deeper treatment of documentation of rationale, reflecting best industrial practices Improved templates, reflecting years of use and feedback, and more documentation layout options A new, comprehensive example (available online), featuring documentation of a Web-based service-oriented system Reference guides for three important architecture documentation languages: UML, AADL, and SySML",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-L-CIxX95_a0C",
+    "title": "Software Architecture",
+    "authors": [
+      "Jan Bosch",
+      "Morven Gentleman",
+      "Christine Hofmeister",
+      "Juha Kuusela"
+    ],
+    "description": "For more and more systems, software has moved from a peripheral to a central role, replacing mechanical parts and hardware and giving the product a competitive edge. Consequences of this trend are an increase in: the size of software systems, the variability in software artifacts, and the importance of software in achieving the system-level properties. Software architecture provides the necessary abstractions for managing the resulting complexity. We here introduce the Third Working IEEFlIFIP Conference on Software Architecture, WICSA3. That it is already the third such conference is in itself a clear indication that software architecture continues to be an important topic in industrial software development and in software engineering research. However, becoming an established field does not mean that software architecture provides less opportunity for innovation and new directions. On the contrary, one can identify a number of interesting trends within software architecture research. The first trend is that the role of the software architecture in all phases of software development is more explicitly recognized. Whereas initially software architecture was primarily associated with the architecture design phase, we now see that the software architecture is treated explicitly during development, product derivation in software product lines, at run-time, and during system evolution. Software architecture as an artifact has been decoupled from a particular lifecycle phase.",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  },
+  {
+    "id": "book-TjhurWt4iPQC",
+    "title": "Software Architecture",
+    "authors": [
+      "Muhammad Ali Babar",
+      "Ian Gorton"
+    ],
+    "description": "Welcome to the European Conference on Software Architecture (ECSA), which is the premier European software engineering conference. ECSA provides researchers and practitioners with a platform to present and discuss the most recent, innovative, and significant findings and experiences in the field of software architecture research and practice. The fourth edition of ECSA was built upon a history of a successful series of European workshops on software architecture held from 2004 through 2006 and a series of European software architecture conferences from 2007 through 2009. The last ECSA was merged with the 8th Working IEEE/IFIP Conference on Software Architecture (WICSA). Apart from the traditional technical program consisting of keynote talks, a main - search track, and a poster session, the scope of the ECSA 2010 was broadened to incorporate other tracks such as an industry track, doctoral symposium track, and a tool demonstration track. In addition, we also offered several workshops and tutorials on diverse topics related to software architecture. We received more than 100 submissions in the three main categories: full research and experience papers, emerging research papers, and research challenges papers. The conference attracted papers (co-)authored by researchers, practitioners, and academics from 30 countries (Algeria, Australia, Austria, Belgium, Brazil, Canada, Chile, China, Colombia, Czech Republic, Denmark, Finland, France, Germany, Hong Kong, I- land, India, Ireland, Israel, Italy, The Netherlands, Poland, Portugal, Romania, Spain, Sweden, Switzerland, Tunisia, United Kingdom, United States).",
+    "categories": [
+      "Computers"
+    ],
+    "rating": 0
+  }
+]
