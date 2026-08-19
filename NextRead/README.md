@@ -22,7 +22,7 @@ npm install
 npm run build
 ```
 
-No external services (Docker, Qdrant) are required — the CLI and web demos below run entirely against sample data.
+No external services (Docker, Qdrant) are required — the CLI and web demos below run entirely against sample data. The optional `--engine tensorflow` flag (see [Similarity Engines](#similarity-engines)) downloads a small model from TensorFlow Hub the first time it's used, then runs fully offline afterward; the default `jaccard` engine never needs network access.
 
 ## Direct CLI Commands
 
@@ -46,6 +46,20 @@ Each prints JSON results to stdout. After `npm run build`, you can run the compi
 ```bash
 node packages/cli/dist/index.js similar note-rust-basics
 ```
+
+## Similarity Engines
+
+All three flows (`similar`, `next`, `books`) accept an `--engine` flag to pick which similarity algorithm ranks candidates:
+
+```bash
+npx tsx packages/cli/src/index.ts similar note-rust-basics --engine jaccard      # default
+npx tsx packages/cli/src/index.ts similar note-rust-basics --engine tensorflow
+```
+
+- `jaccard` (default): deterministic word-overlap scoring, no dependencies, always offline.
+- `tensorflow`: semantic similarity using the Universal Sentence Encoder (`@tensorflow-models/universal-sentence-encoder`) and cosine similarity. Downloads the model from TensorFlow Hub on first use (cached afterward) and is noticeably slower per comparison than `jaccard`.
+
+The interactive form (`npm run manual:test`) prompts for the engine too.
 
 ## Notes Directory
 
@@ -86,6 +100,18 @@ Ownership and borrowing in Rust
 | `note-rust-basics` | Rust Basics |
 
 Use these ids with the direct CLI commands above to pick which note to run the verification against. The web demo (`npm run manual:web`) still runs against the built-in fixtures in `packages/core/src/fixtures/index.ts`, which mirror the same three notes.
+
+## Book Dataset
+
+The `books` flow (CLI direct command and manual form) reads book records from a JSON file, resolved in the same cascade as the notes directory: `--books-dir`-style config isn't exposed as a CLI flag yet, but you can set `booksFile` in `nextread.config.json`, otherwise it defaults to `samples/books/books.json`.
+
+That file isn't checked in with real data by default. Populate it once with:
+
+```bash
+npm run data:books
+```
+
+This calls the public [Google Books API](https://developers.google.com/books) (no API key needed) for a handful of topics matching the sample notes (GraphQL, Rust, API design, systems programming, software architecture) and writes the results to `samples/books/books.json`. Re-run it any time to refresh the dataset. It's a one-off local script — it is not run automatically by `npm install`, `npm run build`, or `npm run test`.
 
 ## Manual Testing Form
 

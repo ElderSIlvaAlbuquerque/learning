@@ -3,9 +3,11 @@ import { join } from 'node:path';
 
 const CONFIG_FILE_NAME = 'nextread.config.json';
 const DEFAULT_NOTES_DIR = 'samples/notes';
+const DEFAULT_BOOKS_FILE = 'samples/books/books.json';
 
 interface NextReadConfig {
   notesDir?: string;
+  booksFile?: string;
 }
 
 function readConfigFile(cwd: string): NextReadConfig {
@@ -29,4 +31,13 @@ export function resolveNotesDir(cliDir?: string, cwd: string = process.cwd()): s
 
   const config = readConfigFile(cwd);
   return config.notesDir ?? DEFAULT_NOTES_DIR;
+}
+
+export function resolveBooksFile(cliPath?: string, cwd: string = process.cwd()): string {
+  if (cliPath) {
+    return cliPath;
+  }
+
+  const config = readConfigFile(cwd);
+  return config.booksFile ?? DEFAULT_BOOKS_FILE;
 }

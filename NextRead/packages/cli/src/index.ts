@@ -1,36 +1,58 @@
 #!/usr/bin/env node
-import { BookRecommendationsService, NextStepService, SimilarNotesService, sampleBooks } from '@nextread/core';
+import {
+  BookRecommendationsService,
+  JaccardSimilarityScorer,
+  NextStepService,
+  SimilarNotesService,
+  TensorFlowSimilarityScorer,
+  type SimilarityScorer
+} from '@nextread/core';
 import { createInterface } from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
-import { resolveNotesDir } from './config.js';
+import { resolveBooksFile, resolveNotesDir } from './config.js';
+import { loadBooksFromFile } from './books-loader.js';
 import { loadNotesFromDir } from './notes-loader.js';
 
-function extractDirFlag(rawArgs: string[]): { dir?: string; rest: string[] } {
+function extractFlag(rawArgs: string[], name: string): { value?: string; rest: string[] } {
   const rest = [...rawArgs];
-  const flagIndex = rest.findIndex((arg) => arg === '--dir' || arg.startsWith('--dir='));
+  const flagIndex = rest.findIndex((arg) => arg === `--${name}` || arg.startsWith(`--${name}=`));
 
   if (flagIndex === -1) {
     return { rest };
   }
 
   const flag = rest[flagIndex];
-  if (flag.startsWith('--dir=')) {
-    const dir = flag.slice('--dir='.length);
+  if (flag.startsWith(`--${name}=`)) {
+    const value = flag.slice(`--${name}=`.length);
     rest.splice(flagIndex, 1);
-    return { dir, rest };
+    return { value, rest };
   }
 
-  const dir = rest[flagIndex + 1];
+  const value = rest[flagIndex + 1];
   rest.splice(flagIndex, 2);
-  return { dir, rest };
+  return { value, rest };
 }
 
-const { dir: dirFlag, rest: args } = extractDirFlag(process.argv.slice(2));
+function resolveScorer(engine?: string): SimilarityScorer {
+  if (!engine || engine === 'jaccard') {
+    return new JaccardSimilarityScorer();
+  }
+
+  if (engine === 'tensorflow') {
+    return new TensorFlowSimilarityScorer();
+  }
+
+  throw new Error(`Unknown engine "${engine}". Use "jaccard" or "tensorflow".`);
+}
+
+const { value: dirFlag, rest: afterDir } = extractFlag(process.argv.slice(2), 'dir');
+const { value: engineFlag, rest: args } = extractFlag(afterDir, 'engine');
 const mode = args[0] ?? 'similar';
 const noteIdArg = args[1];
 
 const notesDir = resolveNotesDir(dirFlag);
 const notes = loadNotesFromDir(notesDir);
+const scorer = resolveScorer(engineFlag);
 
 type Source = 'zenelf' | 'obsidian' | 'other';
 
@@ -83,6 +105,9 @@ async function runFormMode(): Promise<void> {
     const flowInput = (await rl.question('Flow (similar|next|books) [similar]: ')).trim().toLowerCase();
     const flow = flowInput === 'next' || flowInput === 'books' ? flowInput : 'similar';
 
+    const engineInput = (await rl.question(`Engine (jaccard|tensorflow) [${engineFlag ?? 'jaccard'}]: `)).trim().toLowerCase();
+    const formScorer = resolveScorer(engineInput || engineFlag);
+
     const id = (await rl.question(`Note id [${defaultNote.id}]: `)).trim() || defaultNote.id;
     const title = (await rl.question(`Title [${defaultNote.title}]: `)).trim() || defaultNote.title;
     const content = (await rl.question(`Content [${defaultNote.content}]: `)).trim() || defaultNote.content;
@@ -104,7 +129,7 @@ async function runFormMode(): Promise<void> {
     };
 
     if (flow === 'similar') {
-      const service = new SimilarNotesService();
+      const service = new SimilarNotesService(formScorer);
       const results = await service.findSimilar(note, notes);
       console.log('\nResult:');
       console.log(JSON.stringify(results, null, 2));
@@ -112,15 +137,15 @@ async function runFormMode(): Promise<void> {
     }
 
     if (flow === 'next') {
-      const service = new NextStepService();
+      const service = new NextStepService(formScorer);
       const result = await service.recommend(note, notes);
       console.log('\nResult:');
       console.log(JSON.stringify(result, null, 2));
       return;
     }
 
-    const service = new BookRecommendationsService();
-    const results = await service.recommend(note, sampleBooks);
+    const service = new BookRecommendationsService(formScorer);
+    const results = await service.recommend(note, loadBooksFromFile(resolveBooksFile()));
     console.log('\nResult:');
     console.log(JSON.stringify(results, null, 2));
   } finally {
@@ -134,16 +159,16 @@ async function main(): Promise<void> {
   if (mode === 'form') {
     await runFormMode();
   } else if (mode === 'similar') {
-    const service = new SimilarNotesService();
+    const service = new SimilarNotesService(scorer);
     const results = await service.findSimilar(note, notes);
     console.log(JSON.stringify(results, null, 2));
   } else if (mode === 'next') {
-    const service = new NextStepService();
+    const service = new NextStepService(scorer);
     const result = await service.recommend(note, notes);
     console.log(JSON.stringify(result, null, 2));
   } else if (mode === 'books') {
-    const service = new BookRecommendationsService();
-    const results = await service.recommend(note, sampleBooks);
+    const service = new BookRecommendationsService(scorer);
+    const results = await service.recommend(note, loadBooksFromFile(resolveBooksFile()));
     console.log(JSON.stringify(results, null, 2));
   } else {
     console.log('Unknown mode. Use form, similar, next, or books.');
