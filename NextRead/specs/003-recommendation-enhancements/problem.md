@@ -28,3 +28,7 @@ The MVP foundation supports note similarity, next-step selection, and book recom
 - AC2: Recommendations include simple explanation metadata.
 - AC3: Related items can be grouped into lightweight topic clusters.
 - AC4: The ranking remains deterministic across repeated runs.
+
+## Future Improvements
+
+- FI1: Swap the `TensorFlowSimilarityScorer`'s embedding backend from the pure-JS `@tensorflow/tfjs` CPU backend to `@tensorflow/tfjs-node` (already added as a dependency of `@nextread/core`) for meaningfully faster inference. Deferred because it requires a native `node-gyp` build (Python, make, a C++ toolchain) on the machine running it, which isn't guaranteed in every dev/CI environment; the pure-JS backend was chosen as the safer default for that reason. Adopting it means importing `@tensorflow/tfjs-node` once (e.g. at the top of `packages/core/src/services/tensorflow-embedding.ts`) so it self-registers as the active backend, plus documenting the native build prerequisites for contributors.
