@@ -4,7 +4,19 @@ import { createInterface } from 'node:readline/promises';
 import { stdin as input, stdout as output } from 'node:process';
 const args = process.argv.slice(2);
 const mode = args[0] ?? 'similar';
-function toNote(defaultNote = sampleNotes[0]) {
+const noteIdArg = args[1];
+function resolveNote() {
+    if (!noteIdArg) {
+        return sampleNotes[0];
+    }
+    const found = sampleNotes.find((note) => note.id === noteIdArg);
+    if (!found) {
+        const ids = sampleNotes.map((note) => note.id).join(', ');
+        throw new Error(`Unknown note id "${noteIdArg}". Available ids: ${ids}`);
+    }
+    return found;
+}
+function toNote(defaultNote = resolveNote()) {
     return {
         id: defaultNote.id,
         title: defaultNote.title,

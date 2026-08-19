@@ -26,7 +26,7 @@ No external services (Docker, Qdrant) are required — the CLI and web demos bel
 
 ## Direct CLI Commands
 
-Run a single recommendation flow against the sample note without any prompts:
+Run a single recommendation flow against a sample note without any prompts:
 
 ```bash
 npx tsx packages/cli/src/index.ts similar
@@ -34,15 +34,30 @@ npx tsx packages/cli/src/index.ts next
 npx tsx packages/cli/src/index.ts books
 ```
 
+With no note id given, these default to the first sample note (`note-graphql-intro`). Pass a note id as the second argument to run the flow against a different one:
+
+```bash
+npx tsx packages/cli/src/index.ts similar note-rust-basics
+npx tsx packages/cli/src/index.ts next note-graphql-advanced
+```
+
 Each prints JSON results to stdout. After `npm run build`, you can run the compiled version instead:
 
 ```bash
-node packages/cli/dist/index.js similar
+node packages/cli/dist/index.js similar note-rust-basics
 ```
 
 ## Sample Notes
 
-The CLI and web demo run against sample notes built into the code (`packages/core/src/fixtures/index.ts`). For a human-readable copy you can open, skim, or paste into the manual test form, see [`samples/notes/`](samples/notes/) — three Markdown notes with the same id, tags, links, and content as the built-in fixtures.
+The CLI and web demo run against sample notes built into the code (`packages/core/src/fixtures/index.ts`). For a human-readable copy you can open, skim, or paste into the manual test form, see [`samples/notes/`](samples/notes/) — three Markdown notes with the same id, tags, links, and content as the built-in fixtures:
+
+| id | title |
+| --- | --- |
+| `note-graphql-intro` | GraphQL Intro |
+| `note-graphql-advanced` | GraphQL Advanced |
+| `note-rust-basics` | Rust Basics |
+
+Use these ids with the direct CLI commands above to pick which note to run the verification against.
 
 ## Manual Testing Form
 
