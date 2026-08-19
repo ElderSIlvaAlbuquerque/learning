@@ -7,7 +7,9 @@
   ],
   "scripts": {
     "build": "tsc -b",
-    "test": "vitest run"
+    "test": "vitest run",
+    "manual:test": "tsx packages/cli/src/index.ts form",
+    "manual:web": "tsx packages/cli/src/web-demo.ts"
   },
   "devDependencies": {
     "@qdrant/js-client-rest": "^1.9.0",
