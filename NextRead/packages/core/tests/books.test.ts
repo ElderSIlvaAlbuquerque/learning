@@ -3,7 +3,7 @@ import type { Note } from '@nextread/shared';
 import { BookRecommendationsService } from '../src/services/book-recommendations.js';
 
 describe('book recommendations service', () => {
-  it('returns ranked books with metadata', () => {
+  it('returns ranked books with metadata', async () => {
     const service = new BookRecommendationsService();
     const note: Note = {
       id: 'n1',
@@ -26,7 +26,7 @@ describe('book recommendations service', () => {
       }
     ];
 
-    const results = service.recommend(note, books);
+    const results = await service.recommend(note, books);
 
     expect(results[0]?.title).toBe('Learning GraphQL');
     expect(results[0]?.authors).toContain('A. Author');

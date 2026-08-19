@@ -31,7 +31,7 @@ describe('next-step integration', () => {
     const similarService = new SimilarNotesService();
     const similar = await similarService.findSimilar(note, [candidate], store);
     const nextStepService = new NextStepService();
-    const nextStep = nextStepService.recommend(note, [candidate]);
+    const nextStep = await nextStepService.recommend(note, [candidate]);
 
     expect(similar[0]?.id).toBe(candidate.id);
     expect(nextStep?.id).toBe(candidate.id);

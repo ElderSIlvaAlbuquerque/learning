@@ -91,13 +91,13 @@ async function runFormMode() {
         }
         if (flow === 'next') {
             const service = new NextStepService();
-            const result = service.recommend(note, notes);
+            const result = await service.recommend(note, notes);
             console.log('\nResult:');
             console.log(JSON.stringify(result, null, 2));
             return;
         }
         const service = new BookRecommendationsService();
-        const results = service.recommend(note, sampleBooks);
+        const results = await service.recommend(note, sampleBooks);
         console.log('\nResult:');
         console.log(JSON.stringify(results, null, 2));
     }
@@ -117,12 +117,12 @@ async function main() {
     }
     else if (mode === 'next') {
         const service = new NextStepService();
-        const result = service.recommend(note, notes);
+        const result = await service.recommend(note, notes);
         console.log(JSON.stringify(result, null, 2));
     }
     else if (mode === 'books') {
         const service = new BookRecommendationsService();
-        const results = service.recommend(note, sampleBooks);
+        const results = await service.recommend(note, sampleBooks);
         console.log(JSON.stringify(results, null, 2));
     }
     else {

@@ -1,0 +1,1 @@
+{"version":3,"file":"jaccard-scorer.d.ts","sourceRoot":"","sources":["../../src/ranking/jaccard-scorer.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,aAAa,CAAC;AAEpD,qBAAa,uBAAwB,YAAW,gBAAgB;IACxD,KAAK,CAAC,CAAC,EAAE,MAAM,EAAE,CAAC,EAAE,MAAM,GAAG,OAAO,CAAC,MAAM,CAAC;CAOnD"}

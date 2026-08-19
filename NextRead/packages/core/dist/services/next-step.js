@@ -1,22 +1,18 @@
-import { computeNextStepScore } from '../ranking/index.js';
+import { computeNextStepBonus, JaccardSimilarityScorer } from '../ranking/index.js';
 export class NextStepService {
-    recommend(note, candidates) {
-        const ranked = candidates
+    scorer;
+    constructor(scorer = new JaccardSimilarityScorer()) {
+        this.scorer = scorer;
+    }
+    async recommend(note, candidates) {
+        const ranked = await Promise.all(candidates
             .filter((candidate) => candidate.id !== note.id)
-            .map((candidate) => ({
+            .map(async (candidate) => ({
             id: candidate.id,
-            score: computeNextStepScore({
-                tags: note.tags,
-                links: note.links,
-                content: note.content
-            }, {
-                tags: candidate.tags,
-                links: candidate.links,
-                content: candidate.content
-            }),
+            score: (await this.scorer.score(note.content, candidate.content)) + computeNextStepBonus(note, candidate),
             title: candidate.title
-        }))
-            .sort((left, right) => right.score - left.score);
+        })));
+        ranked.sort((left, right) => right.score - left.score);
         return ranked[0] ?? null;
     }
 }

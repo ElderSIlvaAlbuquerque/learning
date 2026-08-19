@@ -3,7 +3,7 @@ import type { Note } from '@nextread/shared';
 import { NextStepService } from '../src/services/next-step.js';
 
 describe('next step service', () => {
-  it('selects the best candidate that is not the current note', () => {
+  it('selects the best candidate that is not the current note', async () => {
     const service = new NextStepService();
     const note: Note = {
       id: 'n1',
@@ -36,7 +36,7 @@ describe('next step service', () => {
       }
     ];
 
-    const result = service.recommend(note, candidates);
+    const result = await service.recommend(note, candidates);
 
     expect(result?.id).toBe('n2');
     expect(result?.id).not.toBe(note.id);

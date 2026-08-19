@@ -1,15 +1,18 @@
-import { computeSimilarityScore } from '../ranking/index.js';
+import { JaccardSimilarityScorer } from '../ranking/index.js';
 export class BookRecommendationsService {
-    recommend(note, books) {
-        return books
-            .map((book) => ({
+    scorer;
+    constructor(scorer = new JaccardSimilarityScorer()) {
+        this.scorer = scorer;
+    }
+    async recommend(note, books) {
+        const scored = await Promise.all(books.map(async (book) => ({
             id: book.id,
-            score: computeSimilarityScore(note.content, `${book.title} ${book.description}`),
+            score: await this.scorer.score(note.content, `${book.title} ${book.description}`),
             title: book.title,
             authors: book.authors,
             rating: book.rating
-        }))
-            .sort((left, right) => right.score - left.score);
+        })));
+        return scored.sort((left, right) => right.score - left.score);
     }
 }
 //# sourceMappingURL=book-recommendations.js.map

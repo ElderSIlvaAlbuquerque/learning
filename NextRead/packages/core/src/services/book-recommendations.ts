@@ -1,6 +1,6 @@
 import type { Note } from '@nextread/shared';
 import type { BookRecord } from '../models/index.js';
-import { computeSimilarityScore } from '../ranking/index.js';
+import { JaccardSimilarityScorer, type SimilarityScorer } from '../ranking/index.js';
 
 export interface BookRecommendation {
   id: string;
@@ -11,15 +11,19 @@ export interface BookRecommendation {
 }
 
 export class BookRecommendationsService {
-  recommend(note: Note, books: BookRecord[]): BookRecommendation[] {
-    return books
-      .map((book) => ({
+  constructor(private readonly scorer: SimilarityScorer = new JaccardSimilarityScorer()) {}
+
+  async recommend(note: Note, books: BookRecord[]): Promise<BookRecommendation[]> {
+    const scored = await Promise.all(
+      books.map(async (book) => ({
         id: book.id,
-        score: computeSimilarityScore(note.content, `${book.title} ${book.description}`),
+        score: await this.scorer.score(note.content, `${book.title} ${book.description}`),
         title: book.title,
         authors: book.authors,
         rating: book.rating
       }))
-      .sort((left, right) => right.score - left.score);
+    );
+
+    return scored.sort((left, right) => right.score - left.score);
   }
 }

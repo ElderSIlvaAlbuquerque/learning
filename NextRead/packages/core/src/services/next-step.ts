@@ -1,6 +1,6 @@
 import type { Note } from '@nextread/shared';
 import type { NoteRecord } from '../models/index.js';
-import { computeNextStepScore } from '../ranking/index.js';
+import { computeNextStepBonus, JaccardSimilarityScorer, type SimilarityScorer } from '../ranking/index.js';
 
 export interface NextStepRecommendation {
   id: string;
@@ -9,26 +9,20 @@ export interface NextStepRecommendation {
 }
 
 export class NextStepService {
-  recommend(note: Note, candidates: NoteRecord[]): NextStepRecommendation | null {
-    const ranked = candidates
-      .filter((candidate) => candidate.id !== note.id)
-      .map((candidate) => ({
-        id: candidate.id,
-        score: computeNextStepScore(
-          {
-            tags: note.tags,
-            links: note.links,
-            content: note.content
-          },
-          {
-            tags: candidate.tags,
-            links: candidate.links,
-            content: candidate.content
-          }
-        ),
-        title: candidate.title
-      }))
-      .sort((left, right) => right.score - left.score);
+  constructor(private readonly scorer: SimilarityScorer = new JaccardSimilarityScorer()) {}
+
+  async recommend(note: Note, candidates: NoteRecord[]): Promise<NextStepRecommendation | null> {
+    const ranked = await Promise.all(
+      candidates
+        .filter((candidate) => candidate.id !== note.id)
+        .map(async (candidate) => ({
+          id: candidate.id,
+          score: (await this.scorer.score(note.content, candidate.content)) + computeNextStepBonus(note, candidate),
+          title: candidate.title
+        }))
+    );
+
+    ranked.sort((left, right) => right.score - left.score);
 
     return ranked[0] ?? null;
   }

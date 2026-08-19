@@ -357,12 +357,12 @@ const server = createServer((req, res) => {
                     }
                     if (flow === 'next') {
                         const service = new NextStepService();
-                        const result = service.recommend(note, sampleNotes);
+                        const result = await service.recommend(note, sampleNotes);
                         jsonResponse(res, 200, { flow, note, result });
                         return;
                     }
                     const service = new BookRecommendationsService();
-                    const results = service.recommend(note, sampleBooks);
+                    const results = await service.recommend(note, sampleBooks);
                     jsonResponse(res, 200, { flow, note, results });
                 }
                 catch (error) {
