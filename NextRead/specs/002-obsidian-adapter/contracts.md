@@ -28,6 +28,7 @@ The adapter should emit the shared NextRead note contract:
   "content": "string",
   "tags": ["string"],
   "links": ["string"],
+  "path": "string (optional)",
   "source": "obsidian",
   "updatedAt": "ISO-8601"
 }

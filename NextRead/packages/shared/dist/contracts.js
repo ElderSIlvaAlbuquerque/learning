@@ -6,6 +6,7 @@ export const NoteSchema = z.object({
     content: z.string().min(1),
     tags: z.array(z.string()).default([]),
     links: z.array(z.string()).default([]),
+    path: z.string().optional(),
     source: NoteSourceSchema.default('other'),
     updatedAt: z.string().datetime().default(new Date().toISOString())
 });

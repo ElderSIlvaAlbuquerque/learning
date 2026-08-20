@@ -4,6 +4,7 @@ export interface NoteRecord {
     content: string;
     tags: string[];
     links: string[];
+    path?: string;
     source: string;
     updatedAt: string;
 }

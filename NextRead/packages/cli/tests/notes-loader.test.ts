@@ -44,6 +44,27 @@ describe('loadNotesFromDir', () => {
     ]);
   });
 
+  it('carries an optional path field from frontmatter', () => {
+    dir = mkdtempSync(join(tmpdir(), 'nextread-notes-'));
+    writeFileSync(
+      join(dir, 'b.md'),
+      ['---', 'id: note-b', 'title: Note B', 'path: vault/note-b.md', '---', '', 'Body text'].join('\n')
+    );
+
+    const notes = loadNotesFromDir(dir);
+
+    expect(notes[0].path).toBe('vault/note-b.md');
+  });
+
+  it('leaves path undefined when frontmatter omits it', () => {
+    dir = mkdtempSync(join(tmpdir(), 'nextread-notes-'));
+    writeFileSync(join(dir, 'c.md'), ['---', 'id: note-c', 'title: Note C', '---', '', 'Body text'].join('\n'));
+
+    const notes = loadNotesFromDir(dir);
+
+    expect(notes[0].path).toBeUndefined();
+  });
+
   it('throws when a note is missing a required id', () => {
     dir = mkdtempSync(join(tmpdir(), 'nextread-notes-'));
     writeFileSync(join(dir, 'bad.md'), ['---', 'title: No Id', '---', 'Body'].join('\n'));

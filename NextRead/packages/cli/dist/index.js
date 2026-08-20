@@ -56,6 +56,7 @@ function toNote(defaultNote = resolveNote()) {
         content: defaultNote.content,
         tags: defaultNote.tags,
         links: defaultNote.links,
+        path: defaultNote.path,
         source: defaultNote.source,
         updatedAt: defaultNote.updatedAt
     };

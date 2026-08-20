@@ -59,6 +59,7 @@ function toNoteRecord(fileName: string, raw: string): NoteRecord {
     content,
     tags: toStringArray(data.tags),
     links: toStringArray(data.links),
+    path: typeof data.path === 'string' ? data.path : undefined,
     source: typeof data.source === 'string' ? data.source : 'other',
     updatedAt: typeof data.updatedAt === 'string' ? data.updatedAt : new Date().toISOString()
   };

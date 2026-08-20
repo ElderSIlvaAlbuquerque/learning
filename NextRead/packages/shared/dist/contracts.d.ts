@@ -6,6 +6,7 @@ export declare const NoteSchema: z.ZodObject<{
     content: z.ZodString;
     tags: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
     links: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
+    path: z.ZodOptional<z.ZodString>;
     source: z.ZodDefault<z.ZodEnum<["zenelf", "obsidian", "other"]>>;
     updatedAt: z.ZodDefault<z.ZodString>;
 }, "strip", z.ZodTypeAny, {
@@ -16,10 +17,12 @@ export declare const NoteSchema: z.ZodObject<{
     links: string[];
     source: "zenelf" | "obsidian" | "other";
     updatedAt: string;
+    path?: string | undefined;
 }, {
     id: string;
     title: string;
     content: string;
+    path?: string | undefined;
     tags?: string[] | undefined;
     links?: string[] | undefined;
     source?: "zenelf" | "obsidian" | "other" | undefined;
