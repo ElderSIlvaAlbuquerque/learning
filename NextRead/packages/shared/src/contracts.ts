@@ -28,6 +28,19 @@ export const RecommendationResultSchema = z.object({
   title: z.string().min(1)
 });
 
+export const RecommendationExplanationSchema = RecommendationResultSchema.extend({
+  explanation: z.string(),
+  cluster: z.string()
+});
+
+export const TopicClusterSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  items: z.array(z.string())
+});
+
 export type Note = z.infer<typeof NoteSchema>;
 export type Book = z.infer<typeof BookSchema>;
 export type RecommendationResult = z.infer<typeof RecommendationResultSchema>;
+export type RecommendationExplanation = z.infer<typeof RecommendationExplanationSchema>;
+export type TopicCluster = z.infer<typeof TopicClusterSchema>;

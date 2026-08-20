@@ -1,0 +1,1 @@
+{"version":3,"file":"explanation.js","sourceRoot":"","sources":["../../src/ranking/explanation.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,gBAAgB,CAAC,MAAgB,EAAE,UAAkB;IACnE,IAAI,MAAM,CAAC,MAAM,GAAG,CAAC,EAAE,CAAC;QACtB,OAAO,kBAAkB,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;IAC/C,CAAC;IAED,OAAO,0BAA0B,UAAU,CAAC,OAAO,CAAC,CAAC,CAAC,GAAG,CAAC;AAC5D,CAAC"}

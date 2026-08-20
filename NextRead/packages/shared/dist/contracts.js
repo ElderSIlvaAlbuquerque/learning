@@ -23,4 +23,13 @@ export const RecommendationResultSchema = z.object({
     score: z.number(),
     title: z.string().min(1)
 });
+export const RecommendationExplanationSchema = RecommendationResultSchema.extend({
+    explanation: z.string(),
+    cluster: z.string()
+});
+export const TopicClusterSchema = z.object({
+    id: z.string().min(1),
+    name: z.string().min(1),
+    items: z.array(z.string())
+});
 //# sourceMappingURL=contracts.js.map

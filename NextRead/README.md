@@ -61,6 +61,8 @@ npx tsx packages/cli/src/index.ts similar note-rust-basics --engine tensorflow
 
 The interactive form (`npm run manual:test`) prompts for the engine too.
 
+`similar` and `books` results are hybrid-ranked: each item's score blends content similarity with a metadata heuristic (shared tags/categories, and book rating), and every result includes an `explanation` string and a `cluster` tag for lightweight grouping.
+
 ## Notes Directory
 
 The direct CLI commands and manual test form load notes from a directory of Markdown files, resolved in this order:

@@ -63,7 +63,42 @@ export declare const RecommendationResultSchema: z.ZodObject<{
     title: string;
     score: number;
 }>;
+export declare const RecommendationExplanationSchema: z.ZodObject<{
+    id: z.ZodString;
+    score: z.ZodNumber;
+    title: z.ZodString;
+} & {
+    explanation: z.ZodString;
+    cluster: z.ZodString;
+}, "strip", z.ZodTypeAny, {
+    id: string;
+    title: string;
+    score: number;
+    explanation: string;
+    cluster: string;
+}, {
+    id: string;
+    title: string;
+    score: number;
+    explanation: string;
+    cluster: string;
+}>;
+export declare const TopicClusterSchema: z.ZodObject<{
+    id: z.ZodString;
+    name: z.ZodString;
+    items: z.ZodArray<z.ZodString, "many">;
+}, "strip", z.ZodTypeAny, {
+    id: string;
+    name: string;
+    items: string[];
+}, {
+    id: string;
+    name: string;
+    items: string[];
+}>;
 export type Note = z.infer<typeof NoteSchema>;
 export type Book = z.infer<typeof BookSchema>;
 export type RecommendationResult = z.infer<typeof RecommendationResultSchema>;
+export type RecommendationExplanation = z.infer<typeof RecommendationExplanationSchema>;
+export type TopicCluster = z.infer<typeof TopicClusterSchema>;
 //# sourceMappingURL=contracts.d.ts.map

@@ -40,5 +40,7 @@ describe('similar notes service', () => {
 
     expect(results[0]?.id).toBe('n2');
     expect(results[0]?.score).toBeGreaterThan(results[1]?.score ?? 0);
+    expect(results[0]?.explanation).toBe('Shares topics: graphql');
+    expect(results[0]?.cluster).toBe('graphql');
   });
 });

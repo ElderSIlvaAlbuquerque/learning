@@ -30,5 +30,7 @@ describe('book recommendations service', () => {
 
     expect(results[0]?.title).toBe('Learning GraphQL');
     expect(results[0]?.authors).toContain('A. Author');
+    expect(results[0]?.explanation).toBeTruthy();
+    expect(results[0]?.cluster).toBeTruthy();
   });
 });
